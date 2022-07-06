@@ -136,6 +136,15 @@
       "filterable": 1
     },
     {
+      "key": "csp_Qicui",
+      "name": "🐞奇粹影视",
+      "type": 3,
+      "api": "csp_Qicui",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "csp_GitCafe",
       "name": "🐞阿里纸条",
       "type": 3,
@@ -869,5 +878,8 @@
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
   ],
-  "spider": "clan://DCIM/clanTV/qiaoji_spider.jar"
+  
+  "spider": "https://ghproxy.com/https://github.com/clanTV/clanTV.github.io/blob/main/clanTV/%E2%9D%A6%E2%98%AF%E2%9C%AAclanTV.jar?raw=true"
+  
+//  "spider": "clan://DCIM/clanTV/❦☯✪clanTV.jar"
 }
