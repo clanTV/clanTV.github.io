@@ -1,6 +1,15 @@
 {
   "sites": [
     {
+      "key": "293视频",
+      "name": "🐞293视频",
+      "type": 3,
+      "api": "csp_SP293",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "csp_SP360",
       "name": "🎾360(🐞)",
       "type": 3,
@@ -3286,5 +3295,5 @@
 
   "spider": "clan://DCIM/clanTV/☃clanTV.jar"
   
-//  315/2338/3033
+//  331/2348/3071
 }

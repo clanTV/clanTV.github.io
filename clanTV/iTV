@@ -1,6 +1,15 @@
 {
   "sites": [
     {
+      "key": "293视频",
+      "name": "🐞293视频",
+      "type": 3,
+      "api": "csp_SP293",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "csp_SP360",
       "name": "🎾360(🐞)",
       "type": 3,
@@ -354,6 +363,45 @@
       "name": "NX2",
       "type": 1,
       "url": "https://play.fuqizhishi.com/maotv/API.php?appkey=QQ172598364&url="
+    },
+    {
+      "name": "龙虾",
+      "type": 1,
+      "url": "http://106.55.234.91:4433/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "qiyi",
+          "mgtv",
+          "youku",
+          "letv",
+          "sohu",
+          "xigua",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "Dalvik/2.1.0"
+        }
+      }
+    },
+    {
+      "name": "Web解析",
+      "type": 0,
+      "url": "https://chaxun.truechat365.com/?url=",
+      "ext": {
+        "flag": [
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "qq",
+          "奇艺"
+        ]
+      }
     },
     {
       "name": "293",
@@ -1304,5 +1352,5 @@
   
 //  "spider": "clan://DCIM/clanTV/❦☯✪clanTV.jar"
 
-//  220/320
+//  229/330
 }
