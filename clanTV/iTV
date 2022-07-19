@@ -263,7 +263,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "clan://DCIM/clanTV/Classification.json"
+      "ext": "https://gitea.com/Pandora2277/Box/raw/branch/master/sub/Bili.json"
     },
     {
       "key": "csp_BBB",
