@@ -209,6 +209,15 @@
       "ext": "https://vod.9e03.com/lvdou_api.php/v1.vod"
     },
     {
+      "key": "小熊",
+      "name": "小熊TV",
+      "type": 3,
+      "api": "csp_Xxys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "csp_PHP_WMKK",
       "name": "🍭完美看看",
       "type": 1,
@@ -227,6 +236,25 @@
       "filterable": 1
     },
     {
+      "key": "Nfyun",
+      "name": "Nf云",
+      "type": 3,
+      "api": "csp_Nfyun",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "bdys",
+      "name": "哔嘀(磁力测试)",
+      "type": 3,
+      "api": "csp_XPbd",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gitea.com/Pandora2277/Box/raw/branch/master/sub/Bdys.json"
+    },
+    {
       "key": "Bili",
       "name": "B站",
       "type": 3,
@@ -234,7 +262,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "clan://DCIM/clanTV/Classification.json"
+      "ext": "https://gitea.com/Pandora2277/Box/raw/branch/master/sub/Bili.json"
     },
     {
       "key": "csp_BBB",
@@ -261,8 +289,8 @@
       "api": "csp_GitCafe",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "ext": "alitoken"
+      "filterable": 1,
+      "ext": "ad3c78559a494bde814f1a6c8c40db51"
     },
     {
       "key": "csp_AliPS",
@@ -271,8 +299,18 @@
       "api": "csp_AliPS",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "ext": "alitoken"
+      "filterable": 1,
+      "ext": "ad3c78559a494bde814f1a6c8c40db51"
+    },
+    {
+      "key": "zhaozy",
+      "name": "找资源",
+      "type": 3,
+      "api": "csp_Zhaozy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "ad3c78559a494bde814f1a6c8c40db51"
     },
     {
       "key": "csp_Blixs",
@@ -2268,7 +2306,7 @@
         {
           "name": "redirect",
           "urls": [
-            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9jbGFuVFYuZ2l0aHViLmlvL2NsYW5UVi9teXR2LnR4dA=="
+            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9jbGFuVFYuZ2l0aHViLmlvL2NsYW5UVi9teXR2LmNzdg=="
           ]
         }
       ]
@@ -2291,6 +2329,48 @@
       "url": "Sequence"
     },
     {
+      "name": "kuanjv16",
+      "type": 1,
+      "url": "https://jhjx.kuanjv.com/newky/?url="
+    },
+    {
+      "name": "fuqi",
+      "type": 1,
+      "url": "https://play.fuqizhishi.com/maotv/API.php?appkey=QQ172598364&url="
+    },
+    {
+      "name": "2",
+      "type": 1,
+      "url": "http://27.124.4.42:4567/jhjson/ceshi.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "qiyi",
+          "mgtv",
+          "youku",
+          "letv",
+          "sohu",
+          "xigua",
+          "1905"
+        ]
+      }
+    },
+    {
+      "name": "9",
+      "type": 1,
+      "url": "http://110.42.2.115:880/analysis/json/?uid=2100&my=fgjnoqstLMRUZ03489&url="
+    },
+    {
+      "name": "11",
+      "type": 1,
+      "url": "http://124.222.68.182/jiexi/4kJX.php/?url="
+    },
+    {
+      "name": "21",
+      "type": 0,
+      "url": "https://okjx.cc/?url="
+    },
+    {
       "name": "线路m9",
       "type": 1,
       "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url="
@@ -2301,9 +2381,9 @@
       "url": "https://vip.nxflv.com/home/api?uid=701203&key=bltuyCEFKLTX013679&url="
     },
     {
-      "name": "293",
+      "name": "龙虾",
       "type": 1,
-      "url": "http://81.71.48.249:4456/jsonc/longxia.php?url=",
+      "url": "http://106.55.234.91:4433/?url=",
       "ext": {
         "flag": [
           "qq",
@@ -2316,8 +2396,27 @@
           "1905"
         ],
         "header": {
-          "User-Agent": "Dart/2.14 (dart:io)"
+          "User-Agent": "Dalvik/2.1.0"
         }
+      }
+    },
+    {
+      "name": "Web解析",
+      "type": 0,
+      "url": "https://chaxun.truechat365.com/?url=",
+      "ext": {
+        "flag": [
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "qq",
+          "奇艺"
+        ]
       }
     },
     {
@@ -2816,6 +2915,8 @@
   ],
   "wallpaper": "https://picsum.photos/1280/720/?blur=10",
 //  "spider": "https://ghproxy.com/https://github.com/clanTV/clanTV.github.io/blob/main/clanTV/%E2%98%83clanTV.jar?raw=true"
-  
+
   "spider": "clan://DCIM/clanTV/☃clanTV.jar"
+  
+//  293/2309
 }
