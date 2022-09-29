@@ -213,7 +213,7 @@
     },
     {
       "key": "csp_QQ",
-      "name": "企鹅┃官采",
+      "name": "企鹅┃官方",
       "type": 3,
       "api": "csp_QQ",
       "searchable": 1,
@@ -222,7 +222,7 @@
     },
     {
       "key": "csp_MGTV",
-      "name": "芒果┃官采",
+      "name": "芒果┃官方",
       "type": 3,
       "api": "csp_MGTV",
       "searchable": 1,
@@ -231,7 +231,7 @@
     },
     {
       "key": "csp_IQIYI",
-      "name": "猕猴桃┃官采",
+      "name": "猕猴桃┃官方",
       "type": 3,
       "api": "csp_IQIYI",
       "searchable": 1,
@@ -240,7 +240,7 @@
     },
     {
       "key": "诺讯资源",
-      "name": "诺讯┃官采",
+      "name": "诺讯┃官方",
       "type": 1,
       "api": "http://caiji.nxflv.com/api.php/provide/vod/",
       "searchable": 1,
@@ -249,7 +249,7 @@
     },
     {
       "key": "M3U8资源",
-      "name": "M3U8┃官采",
+      "name": "M3U8┃官方",
       "type": 1,
       "api": "https://www.zycaiji.net:7788/api.php/provide/vod/",
       "searchable": 1,
@@ -258,7 +258,7 @@
     },
     {
       "key": "天堂资源",
-      "name": "T1┃官采",
+      "name": "T1┃官方",
       "type": 1,
       "api": "http://vipmv.cc/api.php/provide/vod/",
       "searchable": 1,
@@ -2398,8 +2398,8 @@
       "filterable": 0
     },
     {
-      "key": "八戒官采",
-      "name": "🥉八戒官采(官)",
+      "key": "八戒",
+      "name": "🥉八戒(官)",
       "type": 1,
       "api": "https://www.bajiezy.xyz/api.php/provide/vod/",
       "searchable": 1,
