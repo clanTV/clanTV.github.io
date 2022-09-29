@@ -58,16 +58,6 @@
       "ext": "https://clanTV.github.io/clanTV/ext/bili.json"
     },
     {
-      "key": "csp_BBB",
-      "name": "🐞哔哩哔哩",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://clanTV.github.io/clanTV/ext/Bili.json"
-    },
-    {
       "key": "csp_XYQBiu_dsp",
       "name": "短视频通道（XYQ）",
       "type": 3,
@@ -101,24 +91,6 @@
       "name": "芒果┃官采",
       "type": 3,
       "api": "csp_MGTV",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "Lezhu_spider",
-      "name": "🐞乐猪影视",
-      "type": 3,
-      "api": "csp_Lezhu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Wmkk",
-      "name": "完美看看（SP）",
-      "type": 3,
-      "api": "csp_Wmkk",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
