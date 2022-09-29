@@ -133,6 +133,8 @@
   }
  ],
  "homepage": "https://gitcode.net/qq_32394351/dr_py",
+
+{
   "sites": [
     {
       "key": "T4_douban",
@@ -142,15 +144,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
-    },
-    {
-      "key": "360",
-      "name": "360┃解析",
-      "type": 3,
-      "api": "csp_SP360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },
     {
       "key": "少儿教育",
@@ -170,7 +163,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://gitcode.net/MiaoTV/box/-/raw/master/Json/学习课堂.json"
+      "ext": "https://clanTV.github.io/clanTV/ext/bili学习课堂.json"
     },
     {
       "key": "dr_兔小贝",
@@ -212,6 +205,15 @@
       "ext": "https://clanTV.github.io/clanTV/ext/tingbook.json"
     },
     {
+      "key": "360",
+      "name": "360┃解析",
+      "type": 3,
+      "api": "csp_SP360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "csp_QQ",
       "name": "企鹅┃官方",
       "type": 3,
@@ -237,33 +239,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "诺讯资源",
-      "name": "诺讯┃官方",
-      "type": 1,
-      "api": "http://caiji.nxflv.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "M3U8资源",
-      "name": "M3U8┃官方",
-      "type": 1,
-      "api": "https://www.zycaiji.net:7788/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "天堂资源",
-      "name": "T1┃官方",
-      "type": 1,
-      "api": "http://vipmv.cc/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
     },
     {
       "key": "csp_Alist",
@@ -334,6 +309,33 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "3865f0ab8f124688ad786a262af9b940"
+    },
+    {
+      "key": "诺讯资源",
+      "name": "诺讯┃官方",
+      "type": 1,
+      "api": "http://caiji.nxflv.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "M3U8资源",
+      "name": "M3U8┃官方",
+      "type": 1,
+      "api": "https://www.zycaiji.net:7788/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "天堂资源",
+      "name": "T1┃官方",
+      "type": 1,
+      "api": "http://vipmv.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     },
     {
       "key": "感谢桉佬",
