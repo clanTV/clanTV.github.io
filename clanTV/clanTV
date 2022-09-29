@@ -91,7 +91,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "59744816075f4729bc00cd23b98e3447"
+      "ext": "3865f0ab8f124688ad786a262af9b940"
     },
     {
       "key": "csp_Alist",
@@ -111,7 +111,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "59744816075f4729bc00cd23b98e3447"
+      "ext": "3865f0ab8f124688ad786a262af9b940"
     },
     {
       "key": "AliPS",
@@ -121,7 +121,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "59744816075f4729bc00cd23b98e3447"
+      "ext": "3865f0ab8f124688ad786a262af9b940"
     },
     {
       "key": "zhaozy",
@@ -131,7 +131,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "59744816075f4729bc00cd23b98e3447"
+      "ext": "3865f0ab8f124688ad786a262af9b940"
     },
     {
       "key": "csp_Wmkk",
@@ -146,7 +146,7 @@
       "key": "感谢桉佬",
       "name": "榜单荐片（桉佬T4）",
       "type": 4,
-      "api": "https://t4.secan.icu/vod?sites=voflix,bdys01,onelist,dy555,gitcafe&ali_token=59744816075f4729bc00cd23b98e3447&timeout=6",
+      "api": "https://t4.secan.icu/vod?sites=voflix,bdys01,onelist,dy555,gitcafe&ali_token=3865f0ab8f124688ad786a262af9b940&timeout=6",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -262,7 +262,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "59744816075f4729bc00cd23b98e3447"
+      "ext": "3865f0ab8f124688ad786a262af9b940"
     },
     {
       "key": "AliPS",
@@ -272,7 +272,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "59744816075f4729bc00cd23b98e3447"
+      "ext": "3865f0ab8f124688ad786a262af9b940"
     },
     {
       "key": "zhaozy",
@@ -282,7 +282,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "59744816075f4729bc00cd23b98e3447"
+      "ext": "3865f0ab8f124688ad786a262af9b940"
     },
     {
       "key": "push_agent",
@@ -292,7 +292,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "59744816075f4729bc00cd23b98e3447"
+      "ext": "3865f0ab8f124688ad786a262af9b940"
     },
     {
       "key": "csp_XYQBiu_dsp",
@@ -377,7 +377,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "59744816075f4729bc00cd23b98e3447"
+      "ext": "3865f0ab8f124688ad786a262af9b940"
     },
     {
       "key": "KanSJ_spider",
@@ -542,7 +542,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "59744816075f4729bc00cd23b98e3447"
+      "ext": "3865f0ab8f124688ad786a262af9b940"
     },
     {
       "key": "FindZY",
@@ -552,7 +552,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "59744816075f4729bc00cd23b98e3447"
+      "ext": "3865f0ab8f124688ad786a262af9b940"
     },
     {
       "key": "csp_xpath_huya",
