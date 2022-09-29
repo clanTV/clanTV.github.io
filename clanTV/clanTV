@@ -17,7 +17,26 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "http://刚刚.live/wa/xue.php"
+      "ext": "https://clanTV.github.io/clanTV/ext/xue.php"
+    },
+    {
+      "key": "pc_学习课堂",
+      "name": "学习课堂┃B站",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://gitcode.net/MiaoTV/box/-/raw/master/Json/学习课堂.json"
+    },
+    {
+      "key": "dr_兔小贝",
+      "name": "兔小贝┃儿童教育",
+      "type": 1,
+      "api": "http://drpy.fuqizhishi.com/vod?rule=兔小贝",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
       "key": "csp_biubiu_ting",
@@ -27,11 +46,11 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "http://刚刚.live/jar2/tvjs/tingbook.json"
+      "ext": "https://clanTV.github.io/clanTV/ext/tingbook.json"
     },
     {
       "key": "csp_QQ",
-      "name": "通道-27（SP腾讯官采）",
+      "name": "企鹅┃官采",
       "type": 3,
       "api": "csp_QQ",
       "searchable": 1,
@@ -40,7 +59,7 @@
     },
     {
       "key": "csp_MGTV",
-      "name": "通道-28（SP芒果官采）",
+      "name": "芒果┃官采",
       "type": 3,
       "api": "csp_MGTV",
       "searchable": 1,
@@ -49,7 +68,7 @@
     },
     {
       "key": "csp_IQIYI",
-      "name": "通道-29（SP爱奇艺官采）",
+      "name": "猕猴桃┃官采",
       "type": 3,
       "api": "csp_IQIYI",
       "searchable": 1,
@@ -58,7 +77,7 @@
     },
     {
       "key": "诺讯资源",
-      "name": "通道-38（T1官采）",
+      "name": "诺讯┃官采",
       "type": 1,
       "api": "http://caiji.nxflv.com/api.php/provide/vod/",
       "searchable": 1,
@@ -67,7 +86,7 @@
     },
     {
       "key": "M3U8资源",
-      "name": "通道-39（T1官采）",
+      "name": "M3U8┃官采",
       "type": 1,
       "api": "https://www.zycaiji.net:7788/api.php/provide/vod/",
       "searchable": 1,
@@ -76,7 +95,7 @@
     },
     {
       "key": "天堂资源",
-      "name": "通道-17（T1官采）",
+      "name": "T1┃官采",
       "type": 1,
       "api": "http://vipmv.cc/api.php/provide/vod/",
       "searchable": 1,
@@ -101,7 +120,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://刚刚.live/jar2/tvjs/alist.json"
+      "ext": "https://clanTV.github.io/clanTV/ext/alist.json"
     },
     {
       "key": "Yiso",
@@ -302,7 +321,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "http://刚刚.live/jar2/tvjs/duanshipin.json"
+      "ext": "https://clanTV.github.io/clanTV/ext/duanshipin.json"
     },
     {
       "key": "mtv_pc_yinfans",
@@ -312,7 +331,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://刚刚.live/jar2/tvjs/yinfans.json"
+      "ext": "https://clanTV.github.io/clanTV/ext/yinfans.json"
     },
     {
       "key": "bdys",
@@ -322,7 +341,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://刚刚.live/jar2/tvjs/bdyscl.json"
+      "ext": "https://clanTV.github.io/clanTV/ext/bdyscl.json"
     },
     {
       "key": "VIP2",
