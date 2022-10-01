@@ -1,4 +1,4 @@
-﻿{
+{
   "sites": [
 
 {"key":"*91麻豆","name":"*91麻豆","type":1,"api":"https://91md.me/api.php/provide/vod/","searchable":0,"quickSearch":0},
@@ -898,5 +898,5 @@
     "cms.qdwght.com"
   ],
   "wallpaper": "https://picsum.photos/1080/",
-  "spider": "http://52bsj.vip:81/api/v3/file/get/23451/18.jar?sign=cCPHNxilN-Sc0TrzjkjTyk7vaqnSJYNaj10iyemLalc%3D%3A0"
+  "spider": "https://clanTV.github.io/%E3%80%8C%F0%9F%A4%96%20@AiStarXBoT%E3%80%8D/%F0%9F%94%9E%E2%9E%95/%F0%9F%94%9E%E2%9E%95.jar"
 }
