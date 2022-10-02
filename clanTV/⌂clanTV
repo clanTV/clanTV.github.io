@@ -315,7 +315,7 @@
       "filterable": 1,
       "ext": "https://clanTV.github.io/clanTV/ext/alitoken.json"
     },
-{"key":"csp_Bili空格","name":" ","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_Bili空格","name":" ","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://clanTV.github.io/clanTV/ext/幼儿乐园.json"},
     {
       "key": "诺讯资源",
       "name": "诺讯┃官方",
@@ -501,7 +501,7 @@
       "filterable": 1,
       "ext": "https://clanTV.github.io/clanTV/ext/bdyscl.json"
     },
-{"key":"空格","name":" ","type":3,"api":"☁️","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://clanTV.github.io/clanTV/ext/幼儿乐园.json"},
+{"key":"☁️空格","name":" ","type":3,"api":"☁️","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_xpath_cls","name": "🍭磁力搜索〔XB〕","type": 3,"api": "csp_XPathFilter","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"http://maoyingshi.cc/tvbox/云星日记/sh/MaooXB/磁搜.json"},
 {"key": "csp_xpath_音范丝磁力","name": "🐛音范丝磁力〔XP〕","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://maoyingshi.cc/tvbox/云星日记/sh/MaooXP/音范丝磁力.json","jar":"http://maoyingshi.cc/tvbox/云星日记/jar/ali.jpg;md5;23a7b8ab50ead897fd733e5c52c5f3fd"},
     {
