@@ -206,6 +206,15 @@
       "filterable": 0,
       "ext": "https://clanTV.github.io/clanTV/ext/tingbook.json"
     },
+  {
+   "key": "dr_乐猪TV",
+   "name": "乐猪TV(道长)",
+   "type": 1,
+   "api": "https://drpy.owen10086.repl.co/vod?rule=乐猪TV&ext=txt/js/tg/乐猪TV.js",
+   "searchable": 2,
+   "quickSearch": 0,
+   "filterable": 0
+  },
     {
       "key": "360",
       "name": "360┃解析",
