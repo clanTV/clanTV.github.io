@@ -1,4 +1,5 @@
 
+
 {
  "drives": [
   {
@@ -241,6 +242,8 @@
       "quickSearch": 1,
       "filterable": 1
     },
+
+{"key": "csp_Alist","name": "🐠【🅿Alist☁️】","type": 3,"api": "csp_Alist","searchable": 1,"quickSearch": 0,"filterable": 0,"ext":"米奇妙妙屋$https://anime.mqmmw.ga#小光盘$https://alist.xiaoguanxiaocheng.life#帅盘$https://hi.shuaipeng.wang#资源小站$https://pan.142856.xyz#晴园的宝藏库$https://alist.52qy.repl.co#嗨翻$https://pan.hikerfans.com#一只鱼$https://alist.youte.ml#听闻网盘$https://wangpan.sangxuesheng.com#菊花盘$https://pan.142856.xyz#神族九帝$https://alist.shenzjd.com#姬路白雪の资源小站$https://pan.jlbx.xyz#七米蓝$https://al.chirmyram.com","jar":"https://clanTV.github.io/%E3%80%8C%F0%9F%A4%96%20@AiStarXBoT%E3%80%8D/iTVjAR/%F0%9F%85%BFAlist%E2%98%81%EF%B8%8F/alist.jar?raw=true"},
     {
       "key": "csp_Alist",
       "name": "Alist（网盘不支持搜索）",
@@ -251,6 +254,7 @@
       "filterable": 1,
       "ext": "https://clanTV.github.io/clanTV/ext/alist.json"
     },
+{"key":"空格","name":" ","type":3,"api":"360","searchable":1,"quickSearch":1,"filterable":1},
     {
       "key": "Yiso",
       "name": "易搜（云盘仅搜索）",
@@ -259,7 +263,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "3865f0ab8f124688ad786a262af9b940"
+      "ext": "https://clanTV.github.io/clanTV/ext/alitoken.json"
     },
     {
       "key": "AliPS",
@@ -269,7 +273,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "3865f0ab8f124688ad786a262af9b940"
+      "ext": "https://clanTV.github.io/clanTV/ext/alitoken.json"
     },
     {
       "key": "zhaozy",
@@ -279,7 +283,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "3865f0ab8f124688ad786a262af9b940"
+      "ext": "https://clanTV.github.io/clanTV/ext/alitoken.json"
     },
     {
       "key": "Gitcafe",
@@ -289,7 +293,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "3865f0ab8f124688ad786a262af9b940"
+      "ext": "https://clanTV.github.io/clanTV/ext/alitoken.json"
     },
     {
       "key": "zhaozy",
@@ -299,7 +303,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "3865f0ab8f124688ad786a262af9b940"
+      "ext": "https://clanTV.github.io/clanTV/ext/alitoken.json"
     },
     {
       "key": "AliPS",
@@ -309,7 +313,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "3865f0ab8f124688ad786a262af9b940"
+      "ext": "https://clanTV.github.io/clanTV/ext/alitoken.json"
     },
     {
       "key": "诺讯资源",
@@ -369,7 +373,7 @@
       "key": "感谢桉佬",
       "name": "榜单荐片（桉佬T4）",
       "type": 4,
-      "api": "https://t4.secan.icu/vod?sites=voflix,bdys01,onelist,dy555,gitcafe&ali_token=3865f0ab8f124688ad786a262af9b940&timeout=6",
+      "api": "https://t4.secan.icu/vod?sites=voflix,bdys01,onelist,dy555,gitcafe&ali_token=https://clanTV.github.io/clanTV/ext/alitoken.json&timeout=6",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -496,6 +500,9 @@
       "filterable": 1,
       "ext": "https://clanTV.github.io/clanTV/ext/bdyscl.json"
     },
+{"key":"空格","name":" ","type":3,"api":"360","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_xpath_cls","name": "🍭磁力搜索〔XB〕","type": 3,"api": "csp_XPathFilter","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"http://maoyingshi.cc/tvbox/云星日记/sh/MaooXB/磁搜.json"},
+{"key": "csp_xpath_音范丝磁力","name": "🐛音范丝磁力〔XP〕","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://maoyingshi.cc/tvbox/云星日记/sh/MaooXP/音范丝磁力.json","jar":"http://maoyingshi.cc/tvbox/云星日记/jar/ali.jpg;md5;23a7b8ab50ead897fd733e5c52c5f3fd"},
     {
       "key": "VIP16",
       "name": "唐三T4",
@@ -522,7 +529,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "3865f0ab8f124688ad786a262af9b940"
+      "ext": "https://clanTV.github.io/clanTV/ext/alitoken.json"
     },
     {
       "key": "KanSJ_spider",
