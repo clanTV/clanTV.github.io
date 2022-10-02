@@ -252,7 +252,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://clanTV.github.io/clanTV/ext/alist.json"
+      "ext": "https://clanTV.github.io/clanTV/ext/alist.json","jar":"https://clanTV.github.io/%E3%80%8C%F0%9F%A4%96%20@AiStarXBoT%E3%80%8D/iTVjAR/%F0%9F%85%BFAlist%E2%98%81%EF%B8%8F/alist.jar?raw=true"
     },
 {"key":"csp_SP360空格","name":" ","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
     {
