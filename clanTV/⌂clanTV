@@ -315,7 +315,7 @@
       "filterable": 1,
       "ext": "https://clanTV.github.io/clanTV/ext/alitoken.json"
     },
-{"key":"csp_SP360空格","name":" ","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_Bili空格","name":" ","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1},
     {
       "key": "诺讯资源",
       "name": "诺讯┃官方",
