@@ -251,8 +251,8 @@
       "quickSearch": 1,
       "filterable": 1
     },
-{"key":"csp_QQ空格","name":" ","type":3,"api":"csp_QQ","searchable":1,"quickSearch":1,"filterable":1},
-{"key": "csp_Alist","name": "🐠【🅿Alist☁️】","type": 3,"api": "csp_Alist","searchable": 1,"quickSearch": 0,"filterable": 0,"ext":"https://clanTV.github.io/clanTV/ext/alist.json","jar":"https://clanTV.github.io/%E3%80%8C%F0%9F%A4%96%20@AiStarXBoT%E3%80%8D/iTVjAR/%F0%9F%85%BFAlist%E2%98%81%EF%B8%8F/alist.jar?raw=true"},
+{"key":"🈳csp_Bili🈚","name":" ","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://clanTV.github.io/clanTV/ext/幼儿乐园.json"},
+{"key": "csp_Alist","name": "🐠【🅿Alist☁️】","type": 3,"api": "csp_Alist","searchable": 1,"quickSearch": 1,"filterable": 0,"ext":"#☁️9T☁️$https://drive.9t.ee#☁️9T☁️$https://drive.9t.ee#七米蓝$https://al.chirmyram.com","jar":"https://clanTV.github.io/%E3%80%8C%F0%9F%A4%96%20@AiStarXBoT%E3%80%8D/iTVjAR/%F0%9F%85%BFAlist%E2%98%81%EF%B8%8F/alist.jar?raw=true"},
     {
       "key": "csp_Alist☁️",
       "name": "Alist（网盘不支持搜索）",
@@ -260,10 +260,10 @@
       "api": "csp_Alist",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
+      "filterable": 0,
       "ext": "https://clanTV.github.io/clanTV/ext/alist.json"
     },
-{"key":"csp_SP360空格","name":" ","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
+{"key":" csp_SP360 ","name":" ","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
     {
       "key": "Yiso",
       "name": "易搜（云盘仅搜索）",
@@ -324,7 +324,7 @@
       "filterable": 1,
       "ext": "https://clanTV.github.io/clanTV/ext/alitoken.json"
     },
-{"key":"csp_Bili空格","name":" ","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://clanTV.github.io/clanTV/ext/幼儿乐园.json"},
+{"key":"🈳csp_QQ🈚","name":" ","type":3,"api":"csp_QQ","searchable":1,"quickSearch":1,"filterable":1},
     {
       "key": "诺讯资源",
       "name": "诺讯┃官方",
@@ -510,9 +510,10 @@
       "filterable": 1,
       "ext": "https://clanTV.github.io/clanTV/ext/bdyscl.json"
     },
-{"key":"☁️空格","name":" ","type":3,"api":"☁️","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"🈳🧲🈚","name":" ","type":3,"api":"🧲🧲☁️","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_xpath_cls","name": "🍭磁力搜索〔XB〕","type": 3,"api": "csp_XPathFilter","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"http://maoyingshi.cc/tvbox/云星日记/sh/MaooXB/磁搜.json"},
 {"key": "csp_xpath_音范丝磁力","name": "🐛音范丝磁力〔XP〕","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://maoyingshi.cc/tvbox/云星日记/sh/MaooXP/音范丝磁力.json","jar":"http://maoyingshi.cc/tvbox/云星日记/jar/ali.jpg;md5;23a7b8ab50ead897fd733e5c52c5f3fd"},
+{"key": "🈳csp_Alist🈚️","name": " ","type": 3,"api": "csp_Alist","searchable": 1,"quickSearch": 1,"filterable": 0,"ext":"#☁️9T☁️$https://drive.9t.ee"},
     {
       "key": "VIP16",
       "name": "唐三T4",
