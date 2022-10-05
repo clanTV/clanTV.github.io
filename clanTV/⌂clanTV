@@ -264,6 +264,12 @@
       "ext": "https://clanTV.github.io/clanTV/ext/alist.json"
     },
 {"key":" csp_SP360 ","name":" ","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
+        {"key":"csp_Lezhu","name":"乐猪影视","type":3,"api":"csp_Lezhu","searchable":1,"quickSearch":1,"filterable":1},
+        {"key":"csp_GitCafe","name":"小纸条┃云盘","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://刚刚.live/json/alitoken.json"},
+		{"key":"Yisou","name":"易搜┃云盘搜索","type":3,"api":"csp_Yiso","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://刚刚.live/json/alitoken.json"},
+		{"key":"Alips","name":"喵搜┃云盘搜索","type":3,"api":"csp_AliPS","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://刚刚.live/json/alitoken.json"},
+		{"key":"Zhaozy","name":"找资源┃云盘搜索","type":3,"api":"csp_Zhaozy","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://刚刚.live/json/alitoken.json"},
+		{"key":"Upyunso","name":"云搜┃云盘搜索","type":3,"api":"csp_Upyunso","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://刚刚.live/json/alitoken.json"},
     {
       "key": "Yiso",
       "name": "易搜（云盘仅搜索）",
