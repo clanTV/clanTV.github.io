@@ -290,15 +290,6 @@
 			"filterable": 1
 		},
 		{
-			"key": "csp_Lezhu",
-			"name": "乐猪影视",
-			"type": 3,
-			"api": "csp_Lezhu",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
 			"key": "csp_GitCafe",
 			"name": "小纸条┃云盘",
 			"type": 3,
@@ -418,6 +409,15 @@
 			"name": " ",
 			"type": 3,
 			"api": "csp_QQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1
+		},
+		{
+			"key": "csp_Lezhu",
+			"name": "乐猪影视",
+			"type": 3,
+			"api": "csp_Lezhu",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1
