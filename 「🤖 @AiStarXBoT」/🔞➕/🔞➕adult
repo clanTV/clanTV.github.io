@@ -1,3 +1,5 @@
+
+
 {
 	"sites": [{
 			"key": "AList",
@@ -10,33 +12,6 @@
 			"ext": "9T$https://drive.9t.ee#木偶$https://www.kugutsu.ml"
 		},
 		{
-			"key": "360",
-			"name": "360┃解析",
-			"type": 3,
-			"api": "csp_SP360",
-			"searchable": 0,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
-			"key": "csp_QQ",
-			"name": "企鹅┃官方",
-			"type": 3,
-			"api": "csp_QQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
-			"key": "csp_MGTV",
-			"name": "芒果┃官方",
-			"type": 3,
-			"api": "csp_MGTV",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
 			"key": "哔哩",
 			"name": "哔哩",
 			"type": 3,
@@ -45,16 +20,6 @@
 			"quickSearch": 1,
 			"filterable": 0,
 			"ext": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/bili.json"
-		},
-		{
-			"key": "csp_biubiu_ting",
-			"name": "听书（无画面）",
-			"type": 3,
-			"api": "csp_XBiubiu",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"ext": "https://clanTV.github.io/clanTV/ext/tingbook.json"
 		},
 		{
 			"key": "快播",
@@ -1490,5 +1455,5 @@
 		"cms.qdwght.com"
 	],
 	"wallpaper": "https://picsum.photos/1280/720/?blur=10",
-	"spider": "https://clanTV.github.io/%E3%80%8C%F0%9F%A4%96%20@AiStarXBoT%E3%80%8D/%F0%9F%94%9E%E2%9E%95/%F0%9F%94%9E%E2%9E%95FM.jar?raw=true"
+	"spider": "https://raw.iqiq.io/clanTV/clanTV.github.io/main/%E3%80%8C%F0%9F%A4%96%20@AiStarXBoT%E3%80%8D/%F0%9F%94%9E%E2%9E%95/%F0%9F%94%9E%E2%9E%95FM.jar?raw=true"
 }
