@@ -1,0 +1,871 @@
+#!MANAGED-CONFIG https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhkaa0%2Fpermalink%2Fmain%2Fproxy%2FV2ray%7Chttps%3A%2F%2Fraw.githubusercontent.com%2FJsnzkpg%2FJsnzkpg%2FJsnzkpg%2FJsnzkpg%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Ffreefq%2Ffree%2Fmaster%2Fv2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fssrsub%2Fssr%2Fmaster%2FV2Ray%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fripaojiedian%2Ffreenode%2Fmain%2Fsub&insert=false&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false interval=86400 strict=false
+
+[General]
+loglevel = notify
+interface = 127.0.0.1
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = false
+dns-server = system, 223.5.5.5
+exclude-simple-hostnames = true
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇭🇰 TG@hkaa0|新加坡 = custom, 13.214.212.14, 443, aes-256-cfb, amazonskr05, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|日本 = custom, wj-jp-02.wujie.bio, 9039, chacha20-ietf-poly1305, 234507c5-781a-4e92-8290-8264a0a4de87, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|台湾 = custom, wj-tw-01.wujie.bio, 9036, chacha20-ietf-poly1305, 234507c5-781a-4e92-8290-8264a0a4de87, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|日本 2 = vmess, wj-jp-01.wujie.bio, 9039, username=234507c5-781a-4e92-8290-8264a0a4de87, tls=false, ws=true, ws-path=/, sni=wj-jp-01.wujie.bio, ws-headers=Host:wj-jp-01.wujie.bio, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 = custom, 104.243.30.252, 246, aes-256-cfb, bwhskrskr03, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 2 = vmess, f1f3227.u1.glados-config.net, 3331, username=57e0cb4d-eae5-48ec-8091-149dc2b309e0, tls=true, ws=true, ws-path=/s/f1f3227.fm.apple.com:111548, sni=f1f3227.u1.glados-config.net, ws-headers=Host:f1f3227.u1.glados-config.net, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 3 = vmess, 156.225.67.110, 45208, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 4 = vmess, 156.225.67.71, 53208, username=21155efd-8e29-43d2-95bc-fe3190ecb1c6, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 5 = vmess, 156.225.67.68, 45153, username=11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 6 = vmess, 162.159.58.13, 443, username=56a2188b-2ab7-402c-b9b8-34847fdf0958, tls=true, ws=true, ws-path=/5QNROSRV, sni=lg2.v2ray6.xyz, ws-headers=Host:lg2.v2ray6.xyz, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 7 = vmess, 198.2.205.83, 50040, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|香港 = custom, wj-hk-02.wujie.bio, 9039, chacha20-ietf-poly1305, 234507c5-781a-4e92-8290-8264a0a4de87, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 8 = vmess, 45.86.11.200, 44101, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|瑞典 = custom, 70.34.218.134, 8313, chacha20-ietf-poly1305, ljqdalu13.., https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 9 = vmess, 156.225.67.147, 51948, username=93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 10 = vmess, 156.225.67.199, 47811, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 11 = vmess, 156.225.67.249, 34919, username=84d1de11-ce12-4a15-8312-1338356d4ac4, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 12 = vmess, 156.225.67.40, 35685, username=de491802-233e-47f2-8c6c-d19bcf5bd56b, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 13 = vmess, 198.2.208.84, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 14 = vmess, 143.42.87.69, 443, username=927094d3-d678-4763-8591-e240d0bcae87, tls=true, ws=true, ws-path=/chat, sni=143.42.87.69, ws-headers=Host:143.42.87.69, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|波黑 = custom, 185.164.35.9, 989, aes-256-cfb, f8f7aCzcPKbsF8p3, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 15 = vmess, 107.148.195.19, 50014, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|台湾 2 = vmess, tw2.sanfen001.pics, 443, username=da9d5c74-a572-4cf4-a375-19b886f5ffc4, tls=true, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|塞舌尔 = vmess, 156.251.135.11, 53302, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 16 = vmess, 198.2.204.246, 46802, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 17 = vmess, 23.225.33.169, 56002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 18 = vmess, 142.4.104.215, 50302, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 19 = vmess, 198.2.192.248, 48123, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 20 = vmess, 140.99.157.82, 47815, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 21 = vmess, 192.74.231.173, 49202, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|塞浦路斯 = custom, 213.169.137.221, 989, aes-256-cfb, f8f7aCzcPKbsF8p3, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|荷兰 = custom, 51.15.0.113, 989, aes-256-cfb, f8f7aCzcPKbsF8p3, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 22 = vmess, 137.175.18.107, 50004, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 23 = vmess, 137.175.41.194, 50004, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 24 = vmess, 142.4.110.116, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 25 = vmess, wj-us-03.wujie.bio, 9096, username=234507c5-781a-4e92-8290-8264a0a4de87, tls=false, ws=true, ws-path=/, sni=wj-us-03.wujie.bio, ws-headers=Host:wj-us-03.wujie.bio, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 26 = vmess, 45.131.229.57, 41602, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|中国 = vmess, 47.104.237.32, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇫🇮 TG@hkaa0|芬兰 = vmess, wj-fi-01.wujie.bio, 9096, username=234507c5-781a-4e92-8290-8264a0a4de87, tls=false, ws=true, ws-path=/, sni=wj-fi-01.wujie.bio, ws-headers=Host:wj-fi-01.wujie.bio, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|日本 3 = custom, 20.243.255.134, 2333, aes-128-ctr, doub.io, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|台湾 3 = vmess, hinet1261.gfwisbest.xyz, 224, username=2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 27 = vmess, 142.4.126.56, 33302, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 28 = vmess, 23.224.110.183, 443, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=true, ws=true, ws-path=/path/080712342310, sni=23.224.110.183, ws-headers=Host:23.224.110.183, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 29 = vmess, 172.67.87.132, 80, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=false, ws=true, ws-path=/shirker, sni=uk1.scproxy.top, ws-headers=Host:uk1.scproxy.top, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 30 = vmess, 137.175.3.226, 53002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 31 = vmess, 107.148.199.12, 31212, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|中国 2 = vmess, 112.132.215.189, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 32 = vmess, 64.32.4.55, 42175, username=8653004f-de67-44c2-9cce-e0830933fb03, tls=false, skip-cert-verify=0, tfo=false
+🇫🇮 TG@hkaa0|芬兰 2 = custom, 37.143.129.230, 989, aes-256-cfb, f8f7aCzcPKbsF8p3, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|罗马尼亚 = vmess, srv4.shodam.tech, 2053, username=c695a1ed-1b3e-45bf-c492-e895fea39cf1, tls=true, ws=true, ws-path=/@parsashonam, sni=10khasteh.shodam.tech, ws-headers=Host:10khasteh.shodam.tech, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|韩国 = custom, 43.201.14.240, 443, aes-256-cfb, amazonskr05, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|中国 3 = vmess, 36.134.16.96, 11023, username=8c042a38-71c1-1dcb-00df-54880236e0dc, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|日本 4 = custom, 43.206.194.235, 443, aes-256-cfb, amazonskr05, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|中国 4 = custom, 36.139.166.244, 11023, aes-256-gcm, ll668668@, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 33 = vmess, 104.21.235.172, 80, username=d42eaf95-2ca1-41be-8af7-0eb8eb4e719b, tls=false, ws=true, ws-path=/worryfree, sni=rmw1.tunnel.systems, ws-headers=Host:rmw1.tunnel.systems, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|中国 5 = vmess, 36.134.16.190, 11023, username=8c042a38-71c1-1dcb-00df-54880236e0dc, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|中国 6 = custom, 14.29.124.168, 24001, aes-128-cfb, QazEdcTgb159@$*, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|中国 7 = vmess, 36.133.171.209, 11023, username=8c042a38-71c1-1dcb-00df-54880236e0dc, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|新加坡 2 = custom, 18.141.230.221, 443, aes-256-cfb, amazonskr05, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|墨西哥 = custom, 190.103.179.23, 989, aes-256-cfb, f8f7aCzcPKbsF8p3, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 34 = vmess, 156.225.67.104, 49920, username=29a5d48e-24f1-48fd-a5e1-9a46cb31032f, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|中国 8 = custom, 14.29.124.168, 24007, aes-128-cfb, QazEdcTgb159@$*, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 35 = vmess, 156.225.67.211, 46464, username=3ca912da-6ac2-418f-b9cf-45b6f694579b, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|香港 2 = vmess, 156.245.8.27, 48123, username=f9fa3a9c-f7d5-414f-88e6-6970585d9949, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|中国 9 = custom, 36.139.166.247, 11023, aes-256-gcm, ll668668@, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|中国 10 = custom, 36.139.166.231, 11023, aes-256-gcm, ll668668@, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 36 = vmess, 45.86.11.148, 39182, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|新加坡 3 = custom, 52.221.239.225, 443, aes-256-cfb, amazonskr05, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|中国 11 = custom, 36.137.106.115, 11023, aes-256-gcm, ll668668@, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 37 = vmess, 140.99.94.60, 48399, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 38 = vmess, 45.88.176.221, 47815, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 39 = vmess, 156.225.67.226, 30062, username=6e79eea4-5f72-4683-ad0e-5339f013421b, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|乌拉圭 = custom, 179.27.200.28, 989, aes-256-cfb, f8f7aCzcPKbsF8p3, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 40 = vmess, 140.99.59.254, 55512, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 41 = vmess, 140.99.94.61, 48399, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 42 = vmess, 171.22.134.28, 53433, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|中国 12 = custom, 14.29.124.168, 24000, aes-128-cfb, QazEdcTgb159@$*, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 43 = vmess, 140.99.94.42, 44108, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 44 = vmess, 45.12.144.79, 47127, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 45 = vmess, 156.225.67.208, 44123, username=6fa560d4-35c5-4968-adfc-812c52878b84, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 46 = custom, 18.236.190.65, 443, aes-256-cfb, amazonskr05, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 47 = vmess, 142.4.110.28, 44902, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 48 = custom, 54.68.94.117, 443, aes-256-cfb, amazonskr05, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 49 = vmess, 142.4.118.250, 57402, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 50 = vmess, 23.224.14.114, 51552, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 51 = vmess, 144.34.165.33, 10512, username=58781eee-baba-6666-baba-2ca0ada6568b, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 52 = vmess, 142.4.101.169, 59022, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 53 = vmess, 38.54.247.120, 54405, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 54 = vmess, 137.175.18.87, 42002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 55 = vmess, 142.4.110.26, 44902, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 56 = vmess, 192.74.228.171, 42857, username=051b844f-efe3-4847-92aa-66b5de0b6d4e, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 57 = vmess, 142.4.97.72, 44942, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|伊朗 = vmess, 109.122.221.98, 28633, username=d47d6a05-92d0-42d5-b624-22431f263453, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 58 = vmess, 192.74.233.57, 53042, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|秘鲁 = custom, 190.120.229.28, 989, aes-256-cfb, f8f7aCzcPKbsF8p3, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 59 = vmess, 142.0.132.39, 50015, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|中国 13 = custom, 36.139.166.252, 11023, aes-256-gcm, ll668668@, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 60 = vmess, 108.186.5.10, 59010, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 61 = vmess, 142.0.139.54, 57072, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 62 = vmess, cfcdn.sanfencdn.net, 443, username=da9d5c74-a572-4cf4-a375-19b886f5ffc4, tls=true, ws=true, ws-path=/zh-cn, sni=us2.sanfencdn.net, ws-headers=Host:us2.sanfencdn.net, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 63 = vmess, 142.0.132.37, 50015, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|巴拿马 = custom, 138.186.142.4, 989, aes-256-cfb, f8f7aCzcPKbsF8p3, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 64 = vmess, 38.40.219.184, 50462, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|荷兰 2 = custom, 172.99.188.99, 5003, aes-256-gcm, g5MeD6Ft3CWlJId, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 65 = vmess, 192.74.232.249, 51802, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 66 = vmess, 137.175.15.195, 43087, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 67 = vmess, 198.16.45.167, 53392, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇦🇷 TG@hkaa0|阿根廷 = custom, 190.103.176.29, 989, aes-256-cfb, f8f7aCzcPKbsF8p3, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|伯利兹 = vmess, 203.30.189.2, 80, username=17b2a313-37a0-4945-a8e4-e63375506b4a, tls=false, ws=true, ws-path=/, sni=fr.v2ray1.xyz, ws-headers=Host:fr.v2ray1.xyz, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 68 = vmess, 108.186.192.250, 35502, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 69 = vmess, 140.99.149.43, 56882, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 70 = vmess, 162.159.58.14, 80, username=17b2a313-37a0-4945-a8e4-e63375506b4a, tls=false, ws=true, ws-path=/, sni=fr.v2ray1.xyz, ws-headers=Host:fr.v2ray1.xyz, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 71 = custom, wj-us-02.wujie.bio, 9039, chacha20-ietf-poly1305, 234507c5-781a-4e92-8290-8264a0a4de87, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|印度尼西亚 = vmess, id-gcp.nirezzvpn.my.id, 80, username=b1f2612b-a7ac-44d4-89b6-d25520e22b58, tls=false, ws=true, ws-path=/vmessws, sni=id-gcp.nirezzvpn.my.id, ws-headers=Host:id-gcp.nirezzvpn.my.id, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|日本 5 = vmess, jp.mousse.tk, 16650, username=d66a47f2-5136-492c-c82a-74835bb03a76, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|美国 72 = vmess, 23.224.14.114, 51552, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|哥伦比亚 = custom, 190.120.231.45, 989, aes-256-cfb, f8f7aCzcPKbsF8p3, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇨🇦 TG@hkaa0|加拿大 = vmess, 23.227.38.40, 80, username=17b2a313-37a0-4945-a8e4-e63375506b4a, tls=false, ws=true, ws-path=/, sni=fr.v2ray1.xyz, ws-headers=Host:fr.v2ray1.xyz, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|台湾 4 = vmess, polotw1.applebench.tech, 56568, username=cc73b2fd-6a45-4690-b0ad-ddb8df4fb333, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|中国 14 = custom, 36.138.140.208, 11023, aes-256-gcm, ll668668@, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|中国 15 = vmess, 36.134.16.171, 11023, username=8c042a38-71c1-1dcb-00df-54880236e0dc, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|韩国 2 = custom, wj-kr-01.wujie.bio, 9039, chacha20-ietf-poly1305, 234507c5-781a-4e92-8290-8264a0a4de87, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|中国 16 = custom, 14.29.124.168, 24008, aes-128-cfb, QazEdcTgb159@$*, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|中国 17 = custom, 14.29.124.168, 31046, aes-128-cfb, QazEdcTgb159@$*, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|中国 18 = custom, 36.138.193.128, 11023, aes-256-gcm, ll668668@, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|韩国 3 = custom, 158.247.213.230, 989, aes-256-cfb, f8f7aCzcPKbsF8p3, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|以色列 = custom, 193.182.144.183, 989, aes-256-cfb, f8f7aCzcPKbsF8p3, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|中国 19 = custom, 14.29.124.168, 24009, aes-128-cfb, QazEdcTgb159@$*, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|中国 20 = custom, 14.29.124.168, 24005, aes-128-cfb, QazEdcTgb159@$*, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|中国 21 = vmess, 123.249.101.15, 19709, username=2f278a45-940a-46c1-c886-77f3b2d33987, tls=false, ws=true, ws-path=/, sni=123.249.101.15, ws-headers=Host:123.249.101.15, skip-cert-verify=0, tfo=false
+🇭🇰 TG@hkaa0|韩国 4 = custom, 131.186.21.62, 4433, aes-256-gcm, yy595721, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|美国 73 = custom, 45.58.126.153, 19094, aes-256-cfb, 116269a6e1, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|中国 22 = custom, 36.137.106.45, 11023, aes-256-gcm, ll668668@, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|中国 23 = custom, 14.29.124.168, 24004, aes-128-cfb, QazEdcTgb159@$*, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|中国 24 = custom, 14.29.124.168, 24006, aes-128-cfb, QazEdcTgb159@$*, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 TG@hkaa0|拉脱维亚 = custom, 192.36.41.28, 989, aes-256-cfb, f8f7aCzcPKbsF8p3, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇩🇰 TG@hkaa0|丹麦 = custom, 192.36.27.94, 989, aes-256-cfb, f8f7aCzcPKbsF8p3, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+VirMach = custom, VirMach.JP.securevpn.cc, 1020, aes-128-gcm, 202304300000000000000020, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module,obfs=http,obfs-host=bulianglin.com,obfs-uri=/, tfo=false
+万人草都不死 = custom, fn600mlines021.svcline.com, 995, aes-256-gcm, 507364fb791e, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇭🇰 香港IEPL内网专线02 = custom, fn600mliness016.svcline.com, 995, aes-256-gcm, b82344b3d531, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+14亿人一起都草不死 = custom, fn600mlines024.svcline.com, 995, aes-256-gcm, a801632d2e2e, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇺🇸 美国11 = vmess, 5.78.96.204, 80, username=0da1d372-ec60-4b89-8a3f-79159438c6f0, tls=false, ws=true, ws-path=/masvod/public/2023/04/07/20230407_18759421dff_r1_1200k.mp4, sni=svideo.mfa.gov.cn, ws-headers=Host:svideo.mfa.gov.cn, skip-cert-verify=0, tfo=false
+🇺🇸 美国22 = vmess, 5.78.73.163, 80, username=0da1d372-ec60-4b89-8a3f-79159438c6f0, tls=false, ws=true, ws-path=/masvod/public/2023/04/08/20230408_1875e71ee4d_r1_1200k.mp4, sni=svideo.mfa.gov.cn, ws-headers=Host:svideo.mfa.gov.cn, skip-cert-verify=0, tfo=false
+🇻🇳 _[原生][商宽]VNPT = vmess, cf.noaries.de, 8080, username=4f7d5d43-226e-48d8-9df0-5e8bf9f77288, tls=false, ws=true, ws-path=/aries?ed=2048, sni=vn.cloudflare.quest, ws-headers=Host:vn.cloudflare.quest, skip-cert-verify=0, tfo=false
+🇦🇷 _[WARP]Scaleway = vmess, cf.noaries.de, 2052, username=4f7d5d43-226e-48d8-9df0-5e8bf9f77288, tls=false, ws=true, ws-path=/aries?ed=2048, sni=fr.cloudflare.quest, ws-headers=Host:fr.cloudflare.quest, skip-cert-verify=0, tfo=false
+_[无审计]BuyVM = vmess, cf.noaries.de, 8080, username=4f7d5d43-226e-48d8-9df0-5e8bf9f77288, tls=false, ws=true, ws-path=/aries?ed=2048, sni=buyvm.cloudflare.quest, ws-headers=Host:buyvm.cloudflare.quest, skip-cert-verify=0, tfo=false
+🇦🇹 _[无审计][DONATE]BuyVM_黑弩捐赠 = vmess, cf.noaries.de, 2052, username=4f7d5d43-226e-48d8-9df0-5e8bf9f77288, tls=false, ws=true, ws-path=/aries?ed=2048, sni=lsb-aries.heinu.cf, ws-headers=Host:lsb-aries.heinu.cf, skip-cert-verify=0, tfo=false
+_Scaleway = vmess, cf.noaries.de, 8080, username=4f7d5d43-226e-48d8-9df0-5e8bf9f77288, tls=false, ws=true, ws-path=/aries?ed=2048, sni=ft.cloudflare.quest, ws-headers=Host:ft.cloudflare.quest, skip-cert-verify=0, tfo=false
+_[PF][数据网络]Scaleway-圣卢西亚Digicel = vmess, cf.noaries.de, 2052, username=4f7d5d43-226e-48d8-9df0-5e8bf9f77288, tls=false, ws=true, ws-path=/aries?ed=2048, sni=nls.cloudflare.quest, ws-headers=Host:nls.cloudflare.quest, skip-cert-verify=0, tfo=false
+🇹🇭 _[PF][家宽]OVH-泰国AIS = vmess, cf.noaries.de, 8080, username=4f7d5d43-226e-48d8-9df0-5e8bf9f77288, tls=false, ws=true, ws-path=/aries?ed=2048, sni=ovh.cloudflare.quest, ws-headers=Host:ovh.cloudflare.quest, skip-cert-verify=0, tfo=false
+🇷🇺 _[PF][家宽]Scaleway-白俄罗斯A1.BY = vmess, cf.noaries.de, 2052, username=4f7d5d43-226e-48d8-9df0-5e8bf9f77288, tls=false, ws=true, ws-path=/aries?ed=2048, sni=pl.cloudflare.quest, ws-headers=Host:pl.cloudflare.quest, skip-cert-verify=0, tfo=false
+_[原生]pilw = vmess, cf.noaries.de, 2052, username=4f7d5d43-226e-48d8-9df0-5e8bf9f77288, tls=false, ws=true, ws-path=/aries?ed=2048, sni=ee.cloudflare.quest, ws-headers=Host:ee.cloudflare.quest, skip-cert-verify=0, tfo=false
+🇦🇷 _[WARP]Scaleway 2 = vmess, cf.noaries.de, 2052, username=4f7d5d43-226e-48d8-9df0-5e8bf9f77288, tls=false, ws=true, ws-path=/aries?ed=2048, sni=scw-nl.cloudflare.quest, ws-headers=Host:scw-nl.cloudflare.quest, skip-cert-verify=0, tfo=false
+🇰🇷 _[PF][家宽]OVH-韩国LG U = vmess, cf.noaries.de, 2086, username=4f7d5d43-226e-48d8-9df0-5e8bf9f77288, tls=false, ws=true, ws-path=/aries?ed=2048, sni=ovh.cloudflare.quest, ws-headers=Host:ovh.cloudflare.quest, skip-cert-verify=0, tfo=false
+🇻🇳 _[PF][数据中心]VNPT-孟加拉AmberIT = vmess, cf.noaries.de, 2052, username=4f7d5d43-226e-48d8-9df0-5e8bf9f77288, tls=false, ws=true, ws-path=/aries?ed=2048, sni=vn.cloudflare.quest, ws-headers=Host:vn.cloudflare.quest, skip-cert-verify=0, tfo=false
+🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom = vmess, cf.noaries.de, 2052, username=4f7d5d43-226e-48d8-9df0-5e8bf9f77288, tls=false, ws=true, ws-path=/aries?ed=2048, sni=ft.cloudflare.quest, ws-headers=Host:ft.cloudflare.quest, skip-cert-verify=0, tfo=false
+🇸🇬 新加坡13 = custom, 52.221.239.225, 443, aes-256-cfb, amazonskr05, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇸🇬 新加坡02 = custom, 13.212.139.93, 443, aes-256-cfb, amazonskr05, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇸🇬 新加坡07 = custom, 54.179.174.15, 443, aes-256-cfb, amazonskr05, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇺🇸 美国01 = custom, 54.68.94.117, 443, aes-256-cfb, amazonskr05, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇸🇬 新加坡04 = custom, 18.141.230.221, 443, aes-256-cfb, amazonskr05, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇺🇸 美国02 = custom, 18.236.190.65, 443, aes-256-cfb, amazonskr05, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇺🇸 美国03 = custom, 18.236.190.65, 443, aes-256-cfb, amazonskr05, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇸🇬 新加坡05 = custom, 18.143.177.143, 443, aes-256-cfb, amazonskr05, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+h073906.waihuizhibiaowang.com:11543 = http, h073906.waihuizhibiaowang.com, 11543, username=f9af186564, password=b99148441a, tls=true, skip-cert-verify=0, tfo=false
+🇪🇺 IPLC-EU-UK-3[ran-out](v2ray) = vmess, media.flareai.store, 12143, username=b5181de8-66d4-4f8f-904c-23e606303a13, tls=true, skip-cert-verify=0, tfo=false
+🇿🇦 github.com/freefq - 南非  1 = vmess, 156.225.67.121, 47744, username=63b4b829-7f01-4e26-b037-f04b1f098765, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 github.com/freefq - 香港  2 = vmess, 156.245.8.66, 49519, username=5a4d69ad-20a9-4941-b223-87bbd09f5f52, tls=false, skip-cert-verify=0, tfo=false
+🇩🇰 github.com/freefq - 丹麦  3 = vmess, 185.162.228.1, 443, username=40d496a6-ceeb-4096-baeb-4cc52b205621, tls=true, ws=true, ws-path=/, sni=154.v2ray3.xyz, ws-headers=Host:154.v2ray3.xyz, skip-cert-verify=0, tfo=false
+🇺🇸 github.com/freefq - 美国  4 = vmess, f-us1.wvvvv.eu.org, 20, username=0da1d372-ec60-4b89-8a3f-79159438c6f0, tls=false, skip-cert-verify=0, tfo=false
+🇷🇺 github.com/freefq - 俄罗斯  5 = vmess, 185.143.220.25, 443, username=f28e354e-c2d1-4983-9b07-5acaf1b3b3e5, tls=true, ws=true, ws-path=/, sni=dengxin.one, ws-headers=Host:dengxin.one, skip-cert-verify=0, tfo=false
+github.com/freefq - 亚太地区  6 = vmess, 103.160.204.14, 80, username=17b2a313-37a0-4945-a8e4-e63375506b4a, tls=false, ws=true, ws-path=/, sni=fr.v2ray1.xyz, ws-headers=Host:fr.v2ray1.xyz, skip-cert-verify=0, tfo=false
+🇦🇺 github.com/freefq - 澳大利亚悉尼 7 = vmess, 203.24.108.100, 80, username=5f64fa65-7b14-49c5-954d-aa15c6bfcacd, tls=false, ws=true, ws-path=/, sni=lg.v2ray8.xyz, ws-headers=Host:lg.v2ray8.xyz, skip-cert-verify=0, tfo=false
+🇺🇸 github.com/freefq - 美国CloudFlare节点 8 = vmess, 172.64.195.14, 80, username=17b2a313-37a0-4945-a8e4-e63375506b4a, tls=false, ws=true, ws-path=/, sni=fr.v2ray1.xyz, ws-headers=Host:fr.v2ray1.xyz, skip-cert-verify=0, tfo=false
+🇺🇸 github.com/freefq - 美国CloudFlare节点 10 = vmess, 162.159.255.205, 80, username=52466dc2-3550-4310-910c-74b7bf8a020e, tls=false, ws=true, ws-path=/, sni=us-1.acyun.eu.org, ws-headers=Host:us-1.acyun.eu.org, skip-cert-verify=0, tfo=false
+🇺🇸 github.com/freefq - 美国  12 = vmess, vde2.0bad.com, 443, username=927094d3-d678-4763-8591-e240d0bcae87, tls=true, ws=true, ws-path=/chat, sni=vde2.0bad.com, ws-headers=Host:vde2.0bad.com, skip-cert-verify=0, tfo=false
+🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13 = vmess, v143.toddns.tk, 80, username=a25881f3-967f-3265-bc7f-9e66857b016b, tls=false, ws=true, ws-path=/jp143-d2xddxxj, sni=v143.toddns.tk, ws-headers=Host:v143.toddns.tk, skip-cert-verify=0, tfo=false
+🇺🇸 github.com/freefq - 美国CloudFlare节点 14 = vmess, ccdc2.6252369.xyz, 8443, username=f8949dfe-c501-453c-96b6-6786fb03d5f9, tls=true, ws=true, ws-path=/, sni=ccdc2.6252369.xyz, ws-headers=Host:ccdc2.6252369.xyz, skip-cert-verify=0, tfo=false
+🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15 = vmess, www.nivod4.tv, 443, username=56a2188b-2ab7-402c-b9b8-34847fdf0958, tls=true, ws=true, ws-path=/5QNROSRV, sni=lg2.v2ray6.xyz, ws-headers=Host:lg2.v2ray6.xyz, skip-cert-verify=0, tfo=false
+🇦🇺 github.com/freefq - 澳大利亚Langwarrin Secondary College 16 = vmess, 203.30.190.1, 443, username=40d496a6-ceeb-4096-baeb-4cc52b205621, tls=true, ws=true, ws-path=/, sni=154.v2ray3.xyz, ws-headers=Host:154.v2ray3.xyz, skip-cert-verify=0, tfo=false
+🇺🇸 github.com/freefq - 美国CloudFlare节点 17 = vmess, 162.159.58.15, 443, username=c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, tls=true, ws=true, ws-path=/, sni=lg1.v2ray6.xyz, ws-headers=Host:lg1.v2ray6.xyz, skip-cert-verify=0, tfo=false
+🇺🇸 github.com/freefq - 美国  18 = vmess, 143.42.87.69, 443, username=927094d3-d678-4763-8591-e240d0bcae87, tls=true, ws=true, ws-path=/, sni=143.42.87.69, ws-headers=Host:143.42.87.69, skip-cert-verify=0, tfo=false
+github.com/freefq - 亚太地区  19 = vmess, 103.160.204.12, 443, username=40d496a6-ceeb-4096-baeb-4cc52b205621, tls=true, ws=true, ws-path=/ECTCJ0DF, sni=154.v2ray3.xyz, ws-headers=Host:154.v2ray3.xyz, skip-cert-verify=0, tfo=false
+🇺🇸 github.com/freefq - 美国CloudFlare节点 20 = vmess, cdn.moonfree.top, 8443, username=edf140f1-35e9-4160-b5a0-6b27f3419a6f, tls=true, ws=true, ws-path=/, sni=usv6warp.happyfree.top, ws-headers=Host:usv6warp.happyfree.top, skip-cert-verify=0, tfo=false
+github.com/freefq - 亚太地区  21 = vmess, 103.160.204.13, 443, username=56a2188b-2ab7-402c-b9b8-34847fdf0958, tls=true, ws=true, ws-path=/5QNROSRV, sni=lg2.v2ray6.xyz, ws-headers=Host:lg2.v2ray6.xyz, skip-cert-verify=0, tfo=false
+🇺🇸 github.com/freefq - 美国CloudFlare节点 22 = vmess, dp1.scproxy.top, 443, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=true, ws=true, ws-path=/shirker, sni=dp1.scproxy.top, ws-headers=Host:dp1.scproxy.top, skip-cert-verify=0, tfo=false
+🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 23 = vmess, v2ray.online, 443, username=00BBF5B8-173E-6818-9927-5AD1AA073C7D, tls=true, ws=true, ws-path=/, sni=Kansas.v2ray.online, ws-headers=Host:Kansas.v2ray.online, skip-cert-verify=0, tfo=false
+公益机场:https://bit.ly/3BPeo5G = vmess, 86.wowogg.cyou, 52286, username=08103798-414e-32b6-8748-2507732d2c51, tls=false, skip-cert-verify=0, tfo=false
+🇺🇸 V001--US-付费推荐:suo.yt/ssrsub = vmess, r2wind.com, 80, username=f6aa4440-e7be-44e1-80e1-7e45ccd796cc, tls=false, ws=true, ws-path=/api/v3/download.getFile, sni=ssrsub.v01.ssrsub.com, ws-headers=Host:ssrsub.v01.ssrsub.com, skip-cert-verify=0, tfo=false
+🇺🇸 V002--US-付费推荐:suo.yt/ssrsub = vmess, cf.515188.xyz, 80, username=f6aa4440-e7be-44e1-80e1-7e45ccd796cc, tls=false, ws=true, ws-path=/api/v3/download.getFile, sni=ssrsub.v01.ssrsub.com, ws-headers=Host:ssrsub.v01.ssrsub.com, skip-cert-verify=0, tfo=false
+🇺🇸 V003--US-付费推荐:suo.yt/ssrsub = vmess, r2wind.com, 8880, username=f6aa4440-e7be-44e1-80e1-7e45ccd796cc, tls=false, ws=true, ws-path=/api/v3/download.getFile, sni=ssrsub.v02.ssrsub.com, ws-headers=Host:ssrsub.v02.ssrsub.com, skip-cert-verify=0, tfo=false
+🇺🇸 V004--US-付费推荐:suo.yt/ssrsub = vmess, cf.515188.xyz, 8880, username=f6aa4440-e7be-44e1-80e1-7e45ccd796cc, tls=false, ws=true, ws-path=/api/v3/download.getFile, sni=ssrsub.v02.ssrsub.com, ws-headers=Host:ssrsub.v02.ssrsub.com, skip-cert-verify=0, tfo=false
+@SSRSUB-V05-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 443, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=true, ws=true, ws-path=/shirker, sni=sg1.sharecentrepro.com, ws-headers=Host:sg1.sharecentrepro.com, skip-cert-verify=0, tfo=false
+@SSRSUB-V06-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 80, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=false, ws=true, ws-path=/shirker, sni=sg1.sharecentrepro.com, ws-headers=Host:sg1.sharecentrepro.com, skip-cert-verify=0, tfo=false
+@SSRSUB-V07-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 80, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=false, ws=true, ws-path=/shirker, sni=de1.sharecentrepro.org, ws-headers=Host:de1.sharecentrepro.org, skip-cert-verify=0, tfo=false
+@SSRSUB-V08-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 443, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=true, ws=true, ws-path=/shirker, sni=uk1.scproxy.top, ws-headers=Host:uk1.scproxy.top, skip-cert-verify=0, tfo=false
+@SSRSUB-V09-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 443, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=true, ws=true, ws-path=/shirker, sni=hk-hytron.ilovescp.com, ws-headers=Host:hk-hytron.ilovescp.com, skip-cert-verify=0, tfo=false
+@SSRSUB-V10-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 80, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=false, ws=true, ws-path=/shirker, sni=hk-hytron.ilovescp.com, ws-headers=Host:hk-hytron.ilovescp.com, skip-cert-verify=0, tfo=false
+@SSRSUB-V11-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 443, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=true, ws=true, ws-path=/shirker, sni=ca.ilovescp.com, ws-headers=Host:ca.ilovescp.com, skip-cert-verify=0, tfo=false
+@SSRSUB-V12-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 443, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=true, ws=true, ws-path=/shirker, sni=ny1.sharecentrepro.org, ws-headers=Host:ny1.sharecentrepro.org, skip-cert-verify=0, tfo=false
+@SSRSUB-V13-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 80, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=false, ws=true, ws-path=/shirker, sni=ny1.sharecentrepro.org, ws-headers=Host:ny1.sharecentrepro.org, skip-cert-verify=0, tfo=false
+@SSRSUB-V14-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 443, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=true, ws=true, ws-path=/shirker, sni=lv1.sharecentrepro.org, ws-headers=Host:lv1.sharecentrepro.org, skip-cert-verify=0, tfo=false
+@SSRSUB-V15-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 80, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=false, ws=true, ws-path=/shirker, sni=lv1.sharecentrepro.org, ws-headers=Host:lv1.sharecentrepro.org, skip-cert-verify=0, tfo=false
+@SSRSUB-V16-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 443, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=true, ws=true, ws-path=/shirker, sni=lv2.sharecentrepro.org, ws-headers=Host:lv2.sharecentrepro.org, skip-cert-verify=0, tfo=false
+@SSRSUB-V17-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 80, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=false, ws=true, ws-path=/shirker, sni=lv2.sharecentrepro.org, ws-headers=Host:lv2.sharecentrepro.org, skip-cert-verify=0, tfo=false
+@SSRSUB-V18-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 443, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=true, ws=true, ws-path=/shirker, sni=lv3.sharecentrepro.org, ws-headers=Host:lv3.sharecentrepro.org, skip-cert-verify=0, tfo=false
+@SSRSUB-V19-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 80, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=false, ws=true, ws-path=/shirker, sni=lv3.sharecentrepro.org, ws-headers=Host:lv3.sharecentrepro.org, skip-cert-verify=0, tfo=false
+@SSRSUB-V20-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 443, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=true, ws=true, ws-path=/shirker, sni=dp1.scproxy.top, ws-headers=Host:dp1.scproxy.top, skip-cert-verify=0, tfo=false
+@SSRSUB-V21-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 443, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=true, ws=true, ws-path=/shirker, sni=dp2.scproxy.top, ws-headers=Host:dp2.scproxy.top, skip-cert-verify=0, tfo=false
+@SSRSUB-V22-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 443, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=true, ws=true, ws-path=/shirker, sni=dp3.scproxy.top, ws-headers=Host:dp3.scproxy.top, skip-cert-verify=0, tfo=false
+@SSRSUB-V23-付费推荐:suo.yt/ssrsub = vmess, cf-lt.sharecentre.online, 80, username=2e496758-950e-4549-8842-d5eec98d9fde, tls=false, ws=true, ws-path=/shirker, sni=dp3.scproxy.top, ws-headers=Host:dp3.scproxy.top, skip-cert-verify=0, tfo=false
+@SSRSUB-V24-付费推荐:suo.yt/ssrsub = vmess, 198.2.208.181, 35402, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+@SSRSUB-V25-付费推荐:suo.yt/ssrsub = vmess, 198.204.240.254, 5555, username=b323481d-1992-4d53-ad4f-8abc52b30811, tls=false, skip-cert-verify=0, tfo=false
+@SSRSUB-V26-付费推荐:suo.yt/ssrsub = vmess, 64.32.20.91, 45809, username=c1bad9a6-1482-4941-a0c4-e85f3cbbcb5a, tls=false, skip-cert-verify=0, tfo=false
+@SSRSUB-V27-付费推荐:suo.yt/ssrsub = vmess, 104.26.6.13, 443, username=56a2188b-2ab7-402c-b9b8-34847fdf0958, tls=true, ws=true, ws-path=/5QNROSRV, sni=lg2.v2ray6.xyz, ws-headers=Host:lg2.v2ray6.xyz, skip-cert-verify=0, tfo=false
+@SSRSUB-V28-付费推荐:suo.yt/ssrsub = vmess, po-59.f-sub.xyz, 8080, username=88b17347-96d2-4bc8-b739-5ecd3538640a, tls=false, ws=true, ws-path=/, sni=po-59.f-sub.xyz, ws-headers=Host:po-59.f-sub.xyz, skip-cert-verify=0, tfo=false
+@SSRSUB-V29-付费推荐:suo.yt/ssrsub = vmess, 185.162.228.229, 80, username=5f64fa65-7b14-49c5-954d-aa15c6bfcacd, tls=false, ws=true, ws-path=/, sni=lg.v2ray8.xyz, ws-headers=Host:lg.v2ray8.xyz, skip-cert-verify=0, tfo=false
+@SSRSUB-V30-付费推荐:suo.yt/ssrsub = vmess, 103.182.16.149, 80, username=a740cddf-bda7-4b58-8eda-35bece740b6e, tls=false, ws=true, ws-path=/anti13.zingfast.vn, sni=103.182.16.149, ws-headers=Host:103.182.16.149, skip-cert-verify=0, tfo=false
+@SSRSUB-V31-付费推荐:suo.yt/ssrsub = vmess, 162.159.255.200, 80, username=52466dc2-3550-4310-910c-74b7bf8a020e, tls=false, ws=true, ws-path=/, sni=us-1.acyun.eu.org, ws-headers=Host:us-1.acyun.eu.org, skip-cert-verify=0, tfo=false
+@SSRSUB-V32-付费推荐:suo.yt/ssrsub = vmess, target.292228.xyz, 80, username=12b1bed9-1534-41db-a530-a1dbf6c2a7c6, tls=false, ws=true, ws-path=/filetransfer, sni=us-east-1.292228.xyz, ws-headers=Host:us-east-1.292228.xyz, skip-cert-verify=0, tfo=false
+@SSRSUB-V33-付费推荐:suo.yt/ssrsub = vmess, s245.rpscloud3.cloud, 80, username=d65ca664-72d3-4a14-a836-00eadd0df46e, tls=false, ws=true, ws-path=/graphql, sni=s245.rpscloud3.cloud, ws-headers=Host:s245.rpscloud3.cloud, skip-cert-verify=0, tfo=false
+纽约测试|@ripaojiedian = custom, 216.52.183.242, 80, aes-128-gcm, 83XvX4Vo%*3a, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module,obfs-local, tfo=false
+🇭🇰 香港普通|@ripaojiedian = vmess, mir.mygugubird.xyz, 443, username=cad2f27c-fa48-4d1a-e060-e55966f3b606, tls=true, ws=true, ws-path=/, sni=mir.mygugubird.xyz, ws-headers=Host:mir.mygugubird.xyz, skip-cert-verify=0, tfo=false
+🇭🇰 香港高速|tg频道:@ripaojiedian = vmess, n1680936924.edpmvga.cn, 443, username=3ed8f96d-c2ca-4cc6-9ce2-6a8b82c49bbb, tls=true, ws=true, ws-path=/, sni=n1680936924.edpmvga.cn, ws-headers=Host:n1680936924.edpmvga.cn, skip-cert-verify=0, tfo=false
+🇭🇰 香港快|tg频道:@ripaojiedian = vmess, n1680936781.sxhucjg.cn, 443, username=d08ce731-78b8-462d-a98f-d22255f6c483, tls=true, ws=true, ws-path=/, sni=n1680936781.sxhucjg.cn, ws-headers=Host:n1680936781.sxhucjg.cn, skip-cert-verify=0, tfo=false
+🇭🇰 香港S|tg频道:@ripaojiedian = vmess, n1680936780.aqdisrv.cn, 443, username=6379a2c0-7166-4954-b675-033e3564a674, tls=true, ws=true, ws-path=/, sni=n1680936780.aqdisrv.cn, ws-headers=Host:n1680936780.aqdisrv.cn, skip-cert-verify=0, tfo=false
+🇭🇰 香港A|tg频道:@ripaojiedian = vmess, n1681279110.edpmvga.cn, 443, username=597b356c-637d-47db-abbc-25ce99d31d60, tls=true, ws=true, ws-path=/, sni=n1681279110.edpmvga.cn, ws-headers=Host:n1681279110.edpmvga.cn, skip-cert-verify=0, tfo=false
+🇯🇵 日本JP|tg频道:@ripaojiedian = vmess, lop.janp2.gfwcaonimanmsl.ml, 21980, username=dd5b858a-49f5-447a-aa72-e31985f479c5, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 香港C|tg频道:@ripaojiedian = vmess, 111.23.252.214, 45070, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇯🇵 日本JP|@ripaojiedian = vmess, lop.janp2.gfwcaonimanmsl.ml, 21980, username=dd5b858a-49f5-447a-aa72-e31985f479c5, tls=false, skip-cert-verify=0, tfo=false
+🇨🇳 台湾A|tg频道:@ripaojiedian = vmess, polotw1.applebench.tech, 56568, username=5b011960-a3bf-4b6a-8f10-5eda0815728b, tls=false, skip-cert-verify=0, tfo=false
+🇰🇷 首尔|tg频道:@ripaojiedian = vmess, 129.154.221.189, 12654, username=896d9f25-f730-4643-f061-e3aee8fbf1ff, tls=false, skip-cert-verify=0, tfo=false
+🇰🇷 韩国|tg频道:@ripaojiedian = vmess, 152.67.202.3, 13428, username=fb3e0d14-9835-484b-9fbd-fddfe063b782, tls=false, skip-cert-verify=0, tfo=false
+🇯🇵 日本|tg频道:@ripaojiedian = vmess, aflzzul.meiquankongjian.com, 52512, username=4ea595d2-ca8b-3d41-a3e1-80ff7988320d, tls=true, ws=true, ws-path=/564dfa20/, sni=aflzzul.meiquankongjian.com, ws-headers=Host:aflzzul.meiquankongjian.com, skip-cert-verify=0, tfo=false
+关注频道防失联 = vmess, 203.30.190.1, 80, username=5f64fa65-7b14-49c5-954d-aa15c6bfcacd, tls=false, ws=true, ws-path=/, sni=lg.v2ray8.xyz, ws-headers=Host:lg.v2ray8.xyz, skip-cert-verify=0, tfo=false
+🇺🇸 美国|tg频道:@ripaojiedian = vmess, 38.54.250.54, 51431, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇺🇸 美国2|tg频道:@ripaojiedian = vmess, 142.4.97.73, 44942, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+🇭🇰 香港B|tg频道:@ripaojiedian = custom, 180.101.193.226, 10068, aes-256-cfb, RsDk3peCSuo76B68, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, tfo=false
+🇨🇳 台湾|tg频道:@ripaojiedian = vmess, 111.23.252.214, 59902, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, skip-cert-verify=0, tfo=false
+关注频道:@ripaojiedian = vmess, 203.24.108.2, 80, username=17b2a313-37a0-4945-a8e4-e63375506b4a, tls=false, ws=true, ws-path=/, sni=fr.v2ray1.xyz, ws-headers=Host:fr.v2ray1.xyz, skip-cert-verify=0, tfo=false
+CN = direct
+
+[Proxy Group]
+Proxies = select,HK,JP,SG,TW,US,🇭🇰 TG@hkaa0|新加坡,🇭🇰 TG@hkaa0|日本,🇭🇰 TG@hkaa0|台湾,🇭🇰 TG@hkaa0|日本 2,🇭🇰 TG@hkaa0|美国,🇭🇰 TG@hkaa0|美国 2,🇭🇰 TG@hkaa0|美国 3,🇭🇰 TG@hkaa0|美国 4,🇭🇰 TG@hkaa0|美国 5,🇭🇰 TG@hkaa0|美国 6,🇭🇰 TG@hkaa0|美国 7,🇭🇰 TG@hkaa0|香港,🇭🇰 TG@hkaa0|美国 8,🇭🇰 TG@hkaa0|瑞典,🇭🇰 TG@hkaa0|美国 9,🇭🇰 TG@hkaa0|美国 10,🇭🇰 TG@hkaa0|美国 11,🇭🇰 TG@hkaa0|美国 12,🇭🇰 TG@hkaa0|美国 13,🇭🇰 TG@hkaa0|美国 14,🇭🇰 TG@hkaa0|波黑,🇭🇰 TG@hkaa0|美国 15,🇭🇰 TG@hkaa0|台湾 2,🇭🇰 TG@hkaa0|塞舌尔,🇭🇰 TG@hkaa0|美国 16,🇭🇰 TG@hkaa0|美国 17,🇭🇰 TG@hkaa0|美国 18,🇭🇰 TG@hkaa0|美国 19,🇭🇰 TG@hkaa0|美国 20,🇭🇰 TG@hkaa0|美国 21,🇭🇰 TG@hkaa0|塞浦路斯,🇭🇰 TG@hkaa0|荷兰,🇭🇰 TG@hkaa0|美国 22,🇭🇰 TG@hkaa0|美国 23,🇭🇰 TG@hkaa0|美国 24,🇭🇰 TG@hkaa0|美国 25,🇭🇰 TG@hkaa0|美国 26,🇭🇰 TG@hkaa0|中国,🇫🇮 TG@hkaa0|芬兰,🇭🇰 TG@hkaa0|日本 3,🇭🇰 TG@hkaa0|台湾 3,🇭🇰 TG@hkaa0|美国 27,🇭🇰 TG@hkaa0|美国 28,🇭🇰 TG@hkaa0|美国 29,🇭🇰 TG@hkaa0|美国 30,🇭🇰 TG@hkaa0|美国 31,🇭🇰 TG@hkaa0|中国 2,🇭🇰 TG@hkaa0|美国 32,🇫🇮 TG@hkaa0|芬兰 2,🇭🇰 TG@hkaa0|罗马尼亚,🇭🇰 TG@hkaa0|韩国,🇭🇰 TG@hkaa0|中国 3,🇭🇰 TG@hkaa0|日本 4,🇭🇰 TG@hkaa0|中国 4,🇭🇰 TG@hkaa0|美国 33,🇭🇰 TG@hkaa0|中国 5,🇭🇰 TG@hkaa0|中国 6,🇭🇰 TG@hkaa0|中国 7,🇭🇰 TG@hkaa0|新加坡 2,🇭🇰 TG@hkaa0|墨西哥,🇭🇰 TG@hkaa0|美国 34,🇭🇰 TG@hkaa0|中国 8,🇭🇰 TG@hkaa0|美国 35,🇭🇰 TG@hkaa0|香港 2,🇭🇰 TG@hkaa0|中国 9,🇭🇰 TG@hkaa0|中国 10,🇭🇰 TG@hkaa0|美国 36,🇭🇰 TG@hkaa0|新加坡 3,🇭🇰 TG@hkaa0|中国 11,🇭🇰 TG@hkaa0|美国 37,🇭🇰 TG@hkaa0|美国 38,🇭🇰 TG@hkaa0|美国 39,🇭🇰 TG@hkaa0|乌拉圭,🇭🇰 TG@hkaa0|美国 40,🇭🇰 TG@hkaa0|美国 41,🇭🇰 TG@hkaa0|美国 42,🇭🇰 TG@hkaa0|中国 12,🇭🇰 TG@hkaa0|美国 43,🇭🇰 TG@hkaa0|美国 44,🇭🇰 TG@hkaa0|美国 45,🇭🇰 TG@hkaa0|美国 46,🇭🇰 TG@hkaa0|美国 47,🇭🇰 TG@hkaa0|美国 48,🇭🇰 TG@hkaa0|美国 49,🇭🇰 TG@hkaa0|美国 50,🇭🇰 TG@hkaa0|美国 51,🇭🇰 TG@hkaa0|美国 52,🇭🇰 TG@hkaa0|美国 53,🇭🇰 TG@hkaa0|美国 54,🇭🇰 TG@hkaa0|美国 55,🇭🇰 TG@hkaa0|美国 56,🇭🇰 TG@hkaa0|美国 57,🇭🇰 TG@hkaa0|伊朗,🇭🇰 TG@hkaa0|美国 58,🇭🇰 TG@hkaa0|秘鲁,🇭🇰 TG@hkaa0|美国 59,🇭🇰 TG@hkaa0|中国 13,🇭🇰 TG@hkaa0|美国 60,🇭🇰 TG@hkaa0|美国 61,🇭🇰 TG@hkaa0|美国 62,🇭🇰 TG@hkaa0|美国 63,🇭🇰 TG@hkaa0|巴拿马,🇭🇰 TG@hkaa0|美国 64,🇭🇰 TG@hkaa0|荷兰 2,🇭🇰 TG@hkaa0|美国 65,🇭🇰 TG@hkaa0|美国 66,🇭🇰 TG@hkaa0|美国 67,🇦🇷 TG@hkaa0|阿根廷,🇭🇰 TG@hkaa0|伯利兹,🇭🇰 TG@hkaa0|美国 68,🇭🇰 TG@hkaa0|美国 69,🇭🇰 TG@hkaa0|美国 70,🇭🇰 TG@hkaa0|美国 71,🇭🇰 TG@hkaa0|印度尼西亚,🇭🇰 TG@hkaa0|日本 5,🇭🇰 TG@hkaa0|美国 72,🇭🇰 TG@hkaa0|哥伦比亚,🇨🇦 TG@hkaa0|加拿大,🇭🇰 TG@hkaa0|台湾 4,🇭🇰 TG@hkaa0|中国 14,🇭🇰 TG@hkaa0|中国 15,🇭🇰 TG@hkaa0|韩国 2,🇭🇰 TG@hkaa0|中国 16,🇭🇰 TG@hkaa0|中国 17,🇭🇰 TG@hkaa0|中国 18,🇭🇰 TG@hkaa0|韩国 3,🇭🇰 TG@hkaa0|以色列,🇭🇰 TG@hkaa0|中国 19,🇭🇰 TG@hkaa0|中国 20,🇭🇰 TG@hkaa0|中国 21,🇭🇰 TG@hkaa0|韩国 4,🇭🇰 TG@hkaa0|美国 73,🇭🇰 TG@hkaa0|中国 22,🇭🇰 TG@hkaa0|中国 23,🇭🇰 TG@hkaa0|中国 24,🇭🇰 TG@hkaa0|拉脱维亚,🇩🇰 TG@hkaa0|丹麦,VirMach,万人草都不死,🇭🇰 香港IEPL内网专线02,14亿人一起都草不死,🇺🇸 美国11,🇺🇸 美国22,🇻🇳 _[原生][商宽]VNPT,🇦🇷 _[WARP]Scaleway,_[无审计]BuyVM,🇦🇹 _[无审计][DONATE]BuyVM_黑弩捐赠,_Scaleway,_[PF][数据网络]Scaleway-圣卢西亚Digicel,🇹🇭 _[PF][家宽]OVH-泰国AIS,🇷🇺 _[PF][家宽]Scaleway-白俄罗斯A1.BY,_[原生]pilw,🇦🇷 _[WARP]Scaleway 2,🇰🇷 _[PF][家宽]OVH-韩国LG U,🇻🇳 _[PF][数据中心]VNPT-孟加拉AmberIT,🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom,🇸🇬 新加坡13,🇸🇬 新加坡02,🇸🇬 新加坡07,🇺🇸 美国01,🇸🇬 新加坡04,🇺🇸 美国02,🇺🇸 美国03,🇸🇬 新加坡05,h073906.waihuizhibiaowang.com:11543,🇪🇺 IPLC-EU-UK-3[ran-out](v2ray),🇿🇦 github.com/freefq - 南非  1,🇭🇰 github.com/freefq - 香港  2,🇩🇰 github.com/freefq - 丹麦  3,🇺🇸 github.com/freefq - 美国  4,🇷🇺 github.com/freefq - 俄罗斯  5,github.com/freefq - 亚太地区  6,🇦🇺 github.com/freefq - 澳大利亚悉尼 7,🇺🇸 github.com/freefq - 美国CloudFlare节点 8,🇺🇸 github.com/freefq - 美国CloudFlare节点 10,🇺🇸 github.com/freefq - 美国  12,🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13,🇺🇸 github.com/freefq - 美国CloudFlare节点 14,🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15,🇦🇺 github.com/freefq - 澳大利亚Langwarrin Secondary College 16,🇺🇸 github.com/freefq - 美国CloudFlare节点 17,🇺🇸 github.com/freefq - 美国  18,github.com/freefq - 亚太地区  19,🇺🇸 github.com/freefq - 美国CloudFlare节点 20,github.com/freefq - 亚太地区  21,🇺🇸 github.com/freefq - 美国CloudFlare节点 22,🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 23,公益机场:https://bit.ly/3BPeo5G,🇺🇸 V001--US-付费推荐:suo.yt/ssrsub,🇺🇸 V002--US-付费推荐:suo.yt/ssrsub,🇺🇸 V003--US-付费推荐:suo.yt/ssrsub,🇺🇸 V004--US-付费推荐:suo.yt/ssrsub,@SSRSUB-V05-付费推荐:suo.yt/ssrsub,@SSRSUB-V06-付费推荐:suo.yt/ssrsub,@SSRSUB-V07-付费推荐:suo.yt/ssrsub,@SSRSUB-V08-付费推荐:suo.yt/ssrsub,@SSRSUB-V09-付费推荐:suo.yt/ssrsub,@SSRSUB-V10-付费推荐:suo.yt/ssrsub,@SSRSUB-V11-付费推荐:suo.yt/ssrsub,@SSRSUB-V12-付费推荐:suo.yt/ssrsub,@SSRSUB-V13-付费推荐:suo.yt/ssrsub,@SSRSUB-V14-付费推荐:suo.yt/ssrsub,@SSRSUB-V15-付费推荐:suo.yt/ssrsub,@SSRSUB-V16-付费推荐:suo.yt/ssrsub,@SSRSUB-V17-付费推荐:suo.yt/ssrsub,@SSRSUB-V18-付费推荐:suo.yt/ssrsub,@SSRSUB-V19-付费推荐:suo.yt/ssrsub,@SSRSUB-V20-付费推荐:suo.yt/ssrsub,@SSRSUB-V21-付费推荐:suo.yt/ssrsub,@SSRSUB-V22-付费推荐:suo.yt/ssrsub,@SSRSUB-V23-付费推荐:suo.yt/ssrsub,@SSRSUB-V24-付费推荐:suo.yt/ssrsub,@SSRSUB-V25-付费推荐:suo.yt/ssrsub,@SSRSUB-V26-付费推荐:suo.yt/ssrsub,@SSRSUB-V27-付费推荐:suo.yt/ssrsub,@SSRSUB-V28-付费推荐:suo.yt/ssrsub,@SSRSUB-V29-付费推荐:suo.yt/ssrsub,@SSRSUB-V30-付费推荐:suo.yt/ssrsub,@SSRSUB-V31-付费推荐:suo.yt/ssrsub,@SSRSUB-V32-付费推荐:suo.yt/ssrsub,@SSRSUB-V33-付费推荐:suo.yt/ssrsub,纽约测试|@ripaojiedian,🇭🇰 香港普通|@ripaojiedian,🇭🇰 香港高速|tg频道:@ripaojiedian,🇭🇰 香港快|tg频道:@ripaojiedian,🇭🇰 香港S|tg频道:@ripaojiedian,🇭🇰 香港A|tg频道:@ripaojiedian,🇯🇵 日本JP|tg频道:@ripaojiedian,🇭🇰 香港C|tg频道:@ripaojiedian,🇯🇵 日本JP|@ripaojiedian,🇨🇳 台湾A|tg频道:@ripaojiedian,🇰🇷 首尔|tg频道:@ripaojiedian,🇰🇷 韩国|tg频道:@ripaojiedian,🇯🇵 日本|tg频道:@ripaojiedian,关注频道防失联,🇺🇸 美国|tg频道:@ripaojiedian,🇺🇸 美国2|tg频道:@ripaojiedian,🇭🇰 香港B|tg频道:@ripaojiedian,🇨🇳 台湾|tg频道:@ripaojiedian,关注频道:@ripaojiedian
+Netflix = select,Proxies,HK,JP,SG,TW,US
+Bahamut = select,Proxies,TW
+Bilibili = select,DIRECT,TW
+Netease = select,DIRECT,CN
+Apple = select,Proxies,DIRECT,HK,JP,US
+Final = select,Proxies,DIRECT
+HK = select,🇭🇰 TG@hkaa0|香港,🇭🇰 TG@hkaa0|香港 2,🇭🇰 香港IEPL内网专线02,🇭🇰 github.com/freefq - 香港  2,🇭🇰 香港普通|@ripaojiedian,🇭🇰 香港高速|tg频道:@ripaojiedian,🇭🇰 香港快|tg频道:@ripaojiedian,🇭🇰 香港S|tg频道:@ripaojiedian,🇭🇰 香港A|tg频道:@ripaojiedian,🇭🇰 香港C|tg频道:@ripaojiedian,🇭🇰 香港B|tg频道:@ripaojiedian
+JP = select,🇭🇰 TG@hkaa0|日本,🇭🇰 TG@hkaa0|日本 2,🇭🇰 TG@hkaa0|日本 3,🇭🇰 TG@hkaa0|日本 4,🇭🇰 TG@hkaa0|日本 5,🇯🇵 日本JP|tg频道:@ripaojiedian,🇯🇵 日本JP|@ripaojiedian,🇯🇵 日本|tg频道:@ripaojiedian
+SG = select,🇭🇰 TG@hkaa0|新加坡,🇭🇰 TG@hkaa0|新加坡 2,🇭🇰 TG@hkaa0|新加坡 3,🇸🇬 新加坡13,🇸🇬 新加坡02,🇸🇬 新加坡07,🇸🇬 新加坡04,🇸🇬 新加坡05
+TW = select,🇭🇰 TG@hkaa0|台湾,🇭🇰 TG@hkaa0|台湾 2,🇭🇰 TG@hkaa0|台湾 3,🇭🇰 TG@hkaa0|台湾 4,🇨🇳 台湾A|tg频道:@ripaojiedian,🇨🇳 台湾|tg频道:@ripaojiedian
+US = select,🇭🇰 TG@hkaa0|美国,🇭🇰 TG@hkaa0|美国 2,🇭🇰 TG@hkaa0|美国 3,🇭🇰 TG@hkaa0|美国 4,🇭🇰 TG@hkaa0|美国 5,🇭🇰 TG@hkaa0|美国 6,🇭🇰 TG@hkaa0|美国 7,🇭🇰 TG@hkaa0|美国 8,🇭🇰 TG@hkaa0|美国 9,🇭🇰 TG@hkaa0|美国 10,🇭🇰 TG@hkaa0|美国 11,🇭🇰 TG@hkaa0|美国 12,🇭🇰 TG@hkaa0|美国 13,🇭🇰 TG@hkaa0|美国 14,🇭🇰 TG@hkaa0|美国 15,🇭🇰 TG@hkaa0|美国 16,🇭🇰 TG@hkaa0|美国 17,🇭🇰 TG@hkaa0|美国 18,🇭🇰 TG@hkaa0|美国 19,🇭🇰 TG@hkaa0|美国 20,🇭🇰 TG@hkaa0|美国 21,🇭🇰 TG@hkaa0|美国 22,🇭🇰 TG@hkaa0|美国 23,🇭🇰 TG@hkaa0|美国 24,🇭🇰 TG@hkaa0|美国 25,🇭🇰 TG@hkaa0|美国 26,🇭🇰 TG@hkaa0|美国 27,🇭🇰 TG@hkaa0|美国 28,🇭🇰 TG@hkaa0|美国 29,🇭🇰 TG@hkaa0|美国 30,🇭🇰 TG@hkaa0|美国 31,🇭🇰 TG@hkaa0|美国 32,🇭🇰 TG@hkaa0|美国 33,🇭🇰 TG@hkaa0|美国 34,🇭🇰 TG@hkaa0|美国 35,🇭🇰 TG@hkaa0|美国 36,🇭🇰 TG@hkaa0|美国 37,🇭🇰 TG@hkaa0|美国 38,🇭🇰 TG@hkaa0|美国 39,🇭🇰 TG@hkaa0|美国 40,🇭🇰 TG@hkaa0|美国 41,🇭🇰 TG@hkaa0|美国 42,🇭🇰 TG@hkaa0|美国 43,🇭🇰 TG@hkaa0|美国 44,🇭🇰 TG@hkaa0|美国 45,🇭🇰 TG@hkaa0|美国 46,🇭🇰 TG@hkaa0|美国 47,🇭🇰 TG@hkaa0|美国 48,🇭🇰 TG@hkaa0|美国 49,🇭🇰 TG@hkaa0|美国 50,🇭🇰 TG@hkaa0|美国 51,🇭🇰 TG@hkaa0|美国 52,🇭🇰 TG@hkaa0|美国 53,🇭🇰 TG@hkaa0|美国 54,🇭🇰 TG@hkaa0|美国 55,🇭🇰 TG@hkaa0|美国 56,🇭🇰 TG@hkaa0|美国 57,🇭🇰 TG@hkaa0|美国 58,🇭🇰 TG@hkaa0|美国 59,🇭🇰 TG@hkaa0|美国 60,🇭🇰 TG@hkaa0|美国 61,🇭🇰 TG@hkaa0|美国 62,🇭🇰 TG@hkaa0|美国 63,🇭🇰 TG@hkaa0|美国 64,🇭🇰 TG@hkaa0|美国 65,🇭🇰 TG@hkaa0|美国 66,🇭🇰 TG@hkaa0|美国 67,🇭🇰 TG@hkaa0|美国 68,🇭🇰 TG@hkaa0|美国 69,🇭🇰 TG@hkaa0|美国 70,🇭🇰 TG@hkaa0|美国 71,🇭🇰 TG@hkaa0|美国 72,🇭🇰 TG@hkaa0|美国 73,🇺🇸 美国11,🇺🇸 美国22,🇺🇸 美国01,🇺🇸 美国02,🇺🇸 美国03,🇺🇸 github.com/freefq - 美国  4,🇺🇸 github.com/freefq - 美国CloudFlare节点 8,🇺🇸 github.com/freefq - 美国CloudFlare节点 10,🇺🇸 github.com/freefq - 美国  12,🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13,🇺🇸 github.com/freefq - 美国CloudFlare节点 14,🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15,🇺🇸 github.com/freefq - 美国CloudFlare节点 17,🇺🇸 github.com/freefq - 美国  18,🇺🇸 github.com/freefq - 美国CloudFlare节点 20,🇺🇸 github.com/freefq - 美国CloudFlare节点 22,🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 23,🇺🇸 V001--US-付费推荐:suo.yt/ssrsub,🇺🇸 V002--US-付费推荐:suo.yt/ssrsub,🇺🇸 V003--US-付费推荐:suo.yt/ssrsub,🇺🇸 V004--US-付费推荐:suo.yt/ssrsub,🇺🇸 美国|tg频道:@ripaojiedian,🇺🇸 美国2|tg频道:@ripaojiedian
+
+[Rule]
+DOMAIN,app.adjust.com,DIRECT
+DOMAIN,app.appsflyer.com,DIRECT
+DOMAIN,bdtj.tagtic.cn,DIRECT
+DOMAIN,log.mmstat.com,DIRECT
+DOMAIN,sycm.mmstat.com,DIRECT
+DOMAIN-SUFFIX,blog.google // Google Blog,DIRECT
+DOMAIN-SUFFIX,googletraveladservices.com // Google Flights,DIRECT
+DOMAIN,clientservices.googleapis.com,DIRECT
+DOMAIN,update.googleapis.com,DIRECT
+DOMAIN,fairplay.l.qq.com,DIRECT
+DOMAIN,livew.l.qq.com,DIRECT
+DOMAIN,vd.l.qq.com,DIRECT
+DOMAIN,vi.l.qq.com,DIRECT
+DOMAIN,analytics.strava.com,DIRECT
+DOMAIN,msg.umeng.com,DIRECT
+DOMAIN,msg.umengcloud.com,DIRECT
+DOMAIN-SUFFIX,netflix.com,Netflix
+DOMAIN-SUFFIX,netflix.net,Netflix
+DOMAIN-SUFFIX,nflxext.com,Netflix
+DOMAIN-SUFFIX,nflximg.com,Netflix
+DOMAIN-SUFFIX,nflximg.net,Netflix
+DOMAIN-SUFFIX,nflxso.net,Netflix
+DOMAIN-SUFFIX,nflxvideo.net,Netflix
+DOMAIN-KEYWORD,netflixdnstest,Netflix
+DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,Netflix
+DOMAIN-KEYWORD,dualstack.apiproxy-,Netflix
+DOMAIN-SUFFIX,bahamut.com.tw,Bahamut
+DOMAIN-SUFFIX,gamer.com.tw,Bahamut
+DOMAIN,bahamut.akamaized.net,Bahamut
+DOMAIN,gamer-cds.cdn.hinet.net,Bahamut
+DOMAIN,gamer2-cds.cdn.hinet.net,Bahamut
+DOMAIN,api.biliapi.com,Bilibili
+DOMAIN,api.biliapi.net,Bilibili
+DOMAIN,api.bilibili.com,Bilibili
+DOMAIN,app.biliapi.com,Bilibili
+DOMAIN,app.biliapi.net,Bilibili
+DOMAIN,app.bilibili.com,Bilibili
+DOMAIN,grpc.biliapi.net,Bilibili
+DOMAIN,m.bilibili.com,Bilibili
+DOMAIN,upos-hz-mirrorakam.akamaized.net,Bilibili
+DOMAIN,www.bilibili.com,Bilibili
+DOMAIN-KEYWORD,cn-hk-eq-bcache-,Bilibili
+DOMAIN,cache.video.iqiyi.com,Bilibili
+IP-CIDR,116.211.202.206/32,Bilibili,no-resolve
+IP-CIDR,116.211.202.216/32,Bilibili,no-resolve
+DOMAIN-SUFFIX,api.mgtv.com,Bilibili
+DOMAIN,mobileso.bz.mgtv.com,Bilibili
+DOMAIN-SUFFIX,music.126.net,Netease
+DOMAIN-SUFFIX,music.163.com,Netease
+IP-CIDR,39.105.63.80/32,Netease
+IP-CIDR,45.254.48.1/32,Netease
+IP-CIDR,47.100.127.239/32,Netease
+IP-CIDR,59.111.160.195/32,Netease
+IP-CIDR,59.111.160.197/32,Netease
+IP-CIDR,59.111.181.35/32,Netease
+IP-CIDR,59.111.181.38/32,Netease
+IP-CIDR,59.111.181.60/32,Netease
+IP-CIDR,101.71.154.241/32,Netease
+IP-CIDR,103.126.92.132/32,Netease
+IP-CIDR,103.126.92.133/32,Netease
+IP-CIDR,112.13.119.17/32,Netease
+IP-CIDR,112.13.122.1/32,Netease
+IP-CIDR,115.236.118.33/32,Netease
+IP-CIDR,115.236.121.1/32,Netease
+IP-CIDR,118.24.63.156/32,Netease
+IP-CIDR,193.112.159.225/32,Netease
+IP-CIDR,223.252.199.66/32,Netease
+IP-CIDR,223.252.199.67/32,Netease
+DOMAIN-SUFFIX,aaplimg.com,Apple
+DOMAIN-SUFFIX,apple.co,Apple
+DOMAIN-SUFFIX,apple.com,Apple
+DOMAIN-SUFFIX,apple.com.cn,Apple
+DOMAIN-SUFFIX,apple-cloudkit.com,Apple
+DOMAIN-SUFFIX,apple-livephotoskit.com,Apple
+DOMAIN-SUFFIX,apple-mapkit.com,Apple
+DOMAIN-SUFFIX,applemusic.com,Apple
+DOMAIN-SUFFIX,appstore.com,Apple
+DOMAIN-SUFFIX,apzones.com,Apple
+DOMAIN-SUFFIX,cdn-apple.com,Apple
+DOMAIN-SUFFIX,icloud.com,Apple
+DOMAIN-SUFFIX,icloud.com.cn,Apple
+DOMAIN-SUFFIX,icloud-content.com,Apple
+DOMAIN-SUFFIX,me.com,Apple
+DOMAIN-SUFFIX,mzstatic.com,Apple
+DOMAIN-KEYWORD,apple.com.akadns.net,Apple
+DOMAIN-KEYWORD,apple.com.edgekey.net,Apple
+DOMAIN-KEYWORD,apple-support.akadns.net,Apple
+DOMAIN-KEYWORD,icloud.com.akadns.net,Apple
+DOMAIN-SUFFIX,9cache.com,Proxies
+DOMAIN-SUFFIX,9gag.com,Proxies
+DOMAIN-SUFFIX,abc.com,Proxies
+DOMAIN-SUFFIX,anchor.fm,Proxies
+DOMAIN-SUFFIX,archive.fo,Proxies
+DOMAIN-SUFFIX,archive.org,Proxies
+DOMAIN-SUFFIX,archive.ph,Proxies
+DOMAIN-SUFFIX,archiveofourown.org,Proxies
+DOMAIN-SUFFIX,artstation.com,Proxies
+DOMAIN-SUFFIX,ask.com,Proxies
+DOMAIN-SUFFIX,avg.com,Proxies
+DOMAIN-SUFFIX,axios.com,Proxies
+DOMAIN-SUFFIX,bandcamp.com,Proxies
+DOMAIN-SUFFIX,bandwagonhost.com,Proxies
+DOMAIN-SUFFIX,bbc.com,Proxies
+DOMAIN-SUFFIX,behance.net,Proxies
+DOMAIN-SUFFIX,bit.ly,Proxies
+DOMAIN-SUFFIX,bloglovin.com,Proxies
+DOMAIN-SUFFIX,blubrry.com,Proxies
+DOMAIN-SUFFIX,box.com,Proxies
+DOMAIN-SUFFIX,brave.com,Proxies
+DOMAIN-SUFFIX,bullguard.com,Proxies
+DOMAIN-SUFFIX,castbox.fm,Proxies
+DOMAIN-SUFFIX,change.org,Proxies
+DOMAIN-SUFFIX,cloudcone.com,Proxies
+DOMAIN-SUFFIX,clyp.it,Proxies
+DOMAIN-SUFFIX,cna.com.tw,Proxies
+DOMAIN-SUFFIX,conoha.jp,Proxies
+DOMAIN-SUFFIX,coursehero.com,Proxies
+DOMAIN-SUFFIX,c-span.org,Proxies
+DOMAIN-SUFFIX,dailymotion.com,Proxies
+DOMAIN-SUFFIX,daum.net,Proxies
+DOMAIN-SUFFIX,deadline.com,Proxies
+DOMAIN-SUFFIX,depositphotos.com,Proxies
+DOMAIN-SUFFIX,deviantart.com,Proxies
+DOMAIN-SUFFIX,deviantart.net,Proxies
+DOMAIN-SUFFIX,disconnect.me,Proxies
+DOMAIN-SUFFIX,disqus.com,Proxies
+DOMAIN-SUFFIX,dlive.tv,Proxies
+DOMAIN-SUFFIX,dowjones.com,Proxies
+DOMAIN-SUFFIX,duckduckgo.com,Proxies
+DOMAIN-SUFFIX,earthcam.com,Proxies
+DOMAIN-SUFFIX,edx-cdn.org,Proxies
+DOMAIN-SUFFIX,encyclopedia.com,Proxies
+DOMAIN-SUFFIX,feeder.co,Proxies
+DOMAIN-SUFFIX,feedly.com,Proxies
+DOMAIN-SUFFIX,flickr.com,Proxies
+DOMAIN-SUFFIX,flipboard.com,Proxies
+DOMAIN-SUFFIX,flitto.com,Proxies
+DOMAIN-SUFFIX,foreignaffairs.com,Proxies
+DOMAIN-SUFFIX,foreignpolicy.com,Proxies
+DOMAIN-SUFFIX,ft.com,Proxies
+DOMAIN-SUFFIX,ftchinese.com,Proxies
+DOMAIN-SUFFIX,ftimg.net,Proxies
+DOMAIN-SUFFIX,genius.com,Proxies
+DOMAIN-SUFFIX,getsync.com,Proxies
+DOMAIN-SUFFIX,gfw.report,Proxies
+DOMAIN-SUFFIX,git.io,Proxies
+DOMAIN-SUFFIX,githack.com,Proxies
+DOMAIN-SUFFIX,graphql.org,Proxies
+DOMAIN-SUFFIX,hackmd.io,Proxies
+DOMAIN-SUFFIX,heroku.com,Proxies
+DOMAIN-SUFFIX,hket.com,Proxies
+DOMAIN-SUFFIX,huffpost.com,Proxies
+DOMAIN-SUFFIX,i-cable.com,Proxies
+DOMAIN-SUFFIX,imgur.com,Proxies
+DOMAIN-SUFFIX,independent.co.uk,Proxies
+DOMAIN-SUFFIX,inoreader.com,Proxies
+DOMAIN-SUFFIX,is.gd,Proxies
+DOMAIN-SUFFIX,issuu.com,Proxies
+DOMAIN-SUFFIX,istockphoto.com,Proxies
+DOMAIN-SUFFIX,justpaste.it,Proxies
+DOMAIN-SUFFIX,kakao.com,Proxies
+DOMAIN-SUFFIX,kobo.com,Proxies
+DOMAIN-SUFFIX,listennotes.com,Proxies
+DOMAIN-SUFFIX,livestream.com,Proxies
+DOMAIN-SUFFIX,mailchimp.com,Proxies
+DOMAIN-SUFFIX,matrix.org,Proxies
+DOMAIN-SUFFIX,medibang.com,Proxies
+DOMAIN-SUFFIX,medium.com,Proxies
+DOMAIN-SUFFIX,mega.co.nz,Proxies
+DOMAIN-SUFFIX,mega.io,Proxies
+DOMAIN-SUFFIX,mega.nz,Proxies
+DOMAIN-SUFFIX,mixlr.com,Proxies
+DOMAIN-SUFFIX,moon.fm,Proxies
+DOMAIN-SUFFIX,mubi.com,Proxies
+DOMAIN-SUFFIX,myspace.com,Proxies
+DOMAIN-SUFFIX,myspacecdn.com,Proxies
+DOMAIN-SUFFIX,nbcnews.com,Proxies
+DOMAIN-SUFFIX,neowin.net,Proxies
+DOMAIN-SUFFIX,newstatesman.com,Proxies
+DOMAIN-SUFFIX,newsweek.com,Proxies
+DOMAIN-SUFFIX,newyorker.com,Proxies
+DOMAIN-SUFFIX,now.com,Proxies
+DOMAIN-SUFFIX,ok.ru,Proxies
+DOMAIN-SUFFIX,omny.fm,Proxies
+DOMAIN-SUFFIX,openvpn.net,Proxies
+DOMAIN-SUFFIX,owltail.com,Proxies
+DOMAIN-SUFFIX,oxfordscholarship.com,Proxies
+DOMAIN-SUFFIX,parsevideo.com,Proxies
+DOMAIN-SUFFIX,paste.ee,Proxies
+DOMAIN-SUFFIX,pastie.org,Proxies
+DOMAIN-SUFFIX,pcloud.com,Proxies
+DOMAIN-SUFFIX,peing.net,Proxies
+DOMAIN-SUFFIX,player.fm,Proxies
+DOMAIN-SUFFIX,podbean.com,Proxies
+DOMAIN-SUFFIX,prism-break.org,Proxies
+DOMAIN-SUFFIX,privoxy.org,Proxies
+DOMAIN-SUFFIX,proxifier.com,Proxies
+DOMAIN-SUFFIX,quora.com,Proxies
+DOMAIN-SUFFIX,quoracdn.net,Proxies
+DOMAIN-SUFFIX,qz.com,Proxies
+DOMAIN-SUFFIX,radioline.co,Proxies
+DOMAIN-SUFFIX,reabble.com,Proxies
+DOMAIN-SUFFIX,redditlist.com,Proxies
+DOMAIN-SUFFIX,resilio.com,Proxies
+DOMAIN-SUFFIX,rsshub.app,Proxies
+DOMAIN-SUFFIX,rthk.hk,Proxies
+DOMAIN-SUFFIX,scmp.com,Proxies
+DOMAIN-SUFFIX,scribd.com,Proxies
+DOMAIN-SUFFIX,search.com,Proxies
+DOMAIN-SUFFIX,shutterstock.com,Proxies
+DOMAIN-SUFFIX,signal.org,Proxies
+DOMAIN-SUFFIX,sketchappsources.com,Proxies
+DOMAIN-SUFFIX,slideshare.net,Proxies
+DOMAIN-SUFFIX,smartmailcloud.com,Proxies
+DOMAIN-SUFFIX,smh.com.au,Proxies
+DOMAIN-SUFFIX,speakerdeck.com,Proxies
+DOMAIN-SUFFIX,spideroak.com,Proxies
+DOMAIN-SUFFIX,spiegel.de,Proxies
+DOMAIN-SUFFIX,startpage.com,Proxies
+DOMAIN-SUFFIX,steemit.com,Proxies
+DOMAIN-SUFFIX,straitstimes.com,Proxies
+DOMAIN-SUFFIX,streamable.com,Proxies
+DOMAIN-SUFFIX,substack.com,Proxies
+DOMAIN-SUFFIX,swissinfo.ch,Proxies
+DOMAIN-SUFFIX,tapatalk.com,Proxies
+DOMAIN-SUFFIX,techspot.com,Proxies
+DOMAIN-SUFFIX,textnow.me,Proxies
+DOMAIN-SUFFIX,theage.com.au,Proxies
+DOMAIN-SUFFIX,theatlantic.com,Proxies
+DOMAIN-SUFFIX,theaustralian.com.au,Proxies
+DOMAIN-SUFFIX,theconversation.com,Proxies
+DOMAIN-SUFFIX,thediplomat.com,Proxies
+DOMAIN-SUFFIX,theguardian.com,Proxies
+DOMAIN-SUFFIX,theinitium.com,Proxies
+DOMAIN-SUFFIX,themoviedb.org,Proxies
+DOMAIN-SUFFIX,thetvdb.com,Proxies
+DOMAIN-SUFFIX,time.com,Proxies
+DOMAIN-SUFFIX,tineye.com,Proxies
+DOMAIN-SUFFIX,tiny.cc,Proxies
+DOMAIN-SUFFIX,torproject.org,Proxies
+DOMAIN-SUFFIX,tradingview.com,Proxies
+DOMAIN-SUFFIX,turbobit.net,Proxies
+DOMAIN-SUFFIX,tutanota.com,Proxies
+DOMAIN-SUFFIX,urbandictionary.com,Proxies
+DOMAIN-SUFFIX,ustream.tv,Proxies
+DOMAIN-SUFFIX,v2ex.com,Proxies
+DOMAIN-SUFFIX,venturebeat.com,Proxies
+DOMAIN-SUFFIX,viber.com,Proxies
+DOMAIN-SUFFIX,vimeo.com,Proxies
+DOMAIN-SUFFIX,voxer.com,Proxies
+DOMAIN-SUFFIX,vzw.com,Proxies
+DOMAIN-SUFFIX,washingtonpost.com,Proxies
+DOMAIN-SUFFIX,wattpad.com,Proxies
+DOMAIN-SUFFIX,welt.de,Proxies
+DOMAIN-SUFFIX,whoer.net,Proxies
+DOMAIN-SUFFIX,wikimapia.org,Proxies
+DOMAIN-SUFFIX,wikiwand.com,Proxies
+DOMAIN-SUFFIX,wire.com,Proxies
+DOMAIN-SUFFIX,wireguard.com,Proxies
+DOMAIN-SUFFIX,wn.com,Proxies
+DOMAIN-SUFFIX,worldcat.org,Proxies
+DOMAIN-SUFFIX,wsj.com,Proxies
+DOMAIN-SUFFIX,wsj.net,Proxies
+DOMAIN-SUFFIX,x.co,Proxies
+DOMAIN-SUFFIX,yandex.ru,Proxies
+DOMAIN-SUFFIX,you-get.org,Proxies
+DOMAIN-SUFFIX,zaobao.com,Proxies
+DOMAIN-SUFFIX,zello.com,Proxies
+DOMAIN-SUFFIX,zeronet.io,Proxies
+DOMAIN-SUFFIX,z-lib.org,Proxies
+DOMAIN-SUFFIX,zophar.net,Proxies
+DOMAIN-SUFFIX,zyxel.com,Proxies
+DOMAIN,lab.skk.moe,Proxies
+DOMAIN,ocsp.int-x3.letsencrypt.org,Proxies
+DOMAIN,a248.e.akamai.net,Proxies
+DOMAIN,a771.dscq.akamai.net,Proxies
+DOMAIN-SUFFIX,amazon.co.jp,Proxies
+DOMAIN,d3c33hcgiwev3.cloudfront.net,Proxies
+DOMAIN,payments-jp.amazon.com,Proxies
+DOMAIN,s3-ap-northeast-1.amazonaws.com,Proxies
+DOMAIN,s3-ap-southeast-2.amazonaws.com,Proxies
+DOMAIN-SUFFIX,abc.xyz,Proxies
+DOMAIN-SUFFIX,admob.com,Proxies
+DOMAIN-SUFFIX,adsense.com,Proxies
+DOMAIN-SUFFIX,advertisercommunity.com,Proxies
+DOMAIN-SUFFIX,ampproject.org,Proxies
+DOMAIN-SUFFIX,android.com,Proxies
+DOMAIN-SUFFIX,androidify.com,Proxies
+DOMAIN-SUFFIX,androidtv.com,Proxies
+DOMAIN-SUFFIX,api.ai,Proxies
+DOMAIN-SUFFIX,apigee.com,Proxies
+DOMAIN-SUFFIX,appspot.com,Proxies
+DOMAIN-SUFFIX,blogblog.com,Proxies
+DOMAIN-SUFFIX,blogger.com,Proxies
+DOMAIN-SUFFIX,chrome.com,Proxies
+DOMAIN-SUFFIX,chromium.org,Proxies
+DOMAIN-SUFFIX,debug.com,Proxies
+DOMAIN-SUFFIX,dialogflow.com,Proxies
+DOMAIN-SUFFIX,feedburner.com,Proxies
+DOMAIN-SUFFIX,firebaseio.com,Proxies
+DOMAIN-SUFFIX,g.co,Proxies
+DOMAIN-SUFFIX,getoutline.org,Proxies
+DOMAIN-SUFFIX,ggpht.com,Proxies
+DOMAIN-SUFFIX,gmail.com,Proxies
+DOMAIN-SUFFIX,gmodules.com,Proxies
+DOMAIN-SUFFIX,googleapis.cn,Proxies
+DOMAIN-SUFFIX,gvt0.com,Proxies
+DOMAIN-SUFFIX,gvt1.com,Proxies
+DOMAIN-SUFFIX,gvt3.com,Proxies
+DOMAIN-SUFFIX,itasoftware.com,Proxies
+DOMAIN-SUFFIX,on2.com,Proxies
+DOMAIN-SUFFIX,recaptcha.net,Proxies
+DOMAIN-SUFFIX,schema.org,Proxies
+DOMAIN-SUFFIX,tensorflow.org,Proxies
+DOMAIN-SUFFIX,tenor.com,Proxies
+DOMAIN-SUFFIX,tfhub.dev,Proxies
+DOMAIN-SUFFIX,tiltbrush.com,Proxies
+DOMAIN-SUFFIX,waymo.com,Proxies
+DOMAIN-SUFFIX,web.dev,Proxies
+DOMAIN-SUFFIX,webmproject.org,Proxies
+DOMAIN-SUFFIX,webrtc.org,Proxies
+DOMAIN-SUFFIX,widevine.com,Proxies
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Proxies
+DOMAIN-SUFFIX,zynamics.com,Proxies
+DOMAIN-KEYWORD,google,Proxies
+DOMAIN-KEYWORD,.blogspot.,Proxies
+DOMAIN-SUFFIX,goog,Proxies
+DOMAIN,testflight.apple.com,Proxies
+DOMAIN-SUFFIX,gravatar.com,Proxies
+DOMAIN-SUFFIX,tumblr.com,Proxies
+DOMAIN-SUFFIX,videopress.com,Proxies
+DOMAIN-SUFFIX,wordpress.com,Proxies
+DOMAIN-SUFFIX,bloomberg.cn,Proxies
+DOMAIN-SUFFIX,bloomberg.com,Proxies
+DOMAIN-SUFFIX,bloomberg.de,Proxies
+DOMAIN-SUFFIX,bloombergview.com,Proxies
+DOMAIN-SUFFIX,clubhouseapi.com,Proxies
+DOMAIN-SUFFIX,joinclubhouse.com,Proxies
+DOMAIN,clubhouse.pubnubapi.com,Proxies
+DOMAIN-SUFFIX,aex.com,Proxies
+DOMAIN-SUFFIX,bibox.com,Proxies
+DOMAIN-SUFFIX,binance.cc,Proxies
+DOMAIN-SUFFIX,binance.com,Proxies
+DOMAIN-SUFFIX,binance.me,Proxies
+DOMAIN-SUFFIX,binance.us,Proxies
+DOMAIN-SUFFIX,bitcointalk.org,Proxies
+DOMAIN-SUFFIX,bitfinex.com,Proxies
+DOMAIN-SUFFIX,bithumb.com,Proxies
+DOMAIN-SUFFIX,bitmex.com,Proxies
+DOMAIN-SUFFIX,bitstamp.net,Proxies
+DOMAIN-SUFFIX,bittrex.com,Proxies
+DOMAIN-SUFFIX,bybit.com,Proxies
+DOMAIN-SUFFIX,coinbase.com,Proxies
+DOMAIN-SUFFIX,coincheck.com,Proxies
+DOMAIN-SUFFIX,coingecko.com,Proxies
+DOMAIN-SUFFIX,coinmarketcap.com,Proxies
+DOMAIN-SUFFIX,coinone.co.kr,Proxies
+DOMAIN-SUFFIX,etherscan.io,Proxies
+DOMAIN-SUFFIX,ftx.com,Proxies
+DOMAIN-SUFFIX,gate.io,Proxies
+DOMAIN-SUFFIX,gemini.com,Proxies
+DOMAIN-SUFFIX,huobi.com,Proxies
+DOMAIN-SUFFIX,korbit.co.kr,Proxies
+DOMAIN-SUFFIX,kraken.com,Proxies
+DOMAIN-SUFFIX,kucoin.com,Proxies
+DOMAIN-SUFFIX,liquid.com,Proxies
+DOMAIN-SUFFIX,okex.com,Proxies
+DOMAIN-SUFFIX,okx.com,Proxies
+DOMAIN-SUFFIX,poloniex.com,Proxies
+DOMAIN-SUFFIX,sushi.com,Proxies
+DOMAIN-SUFFIX,uniswap.org,Proxies
+DOMAIN-SUFFIX,zb.com,Proxies
+DOMAIN-SUFFIX,discord.com,Proxies
+DOMAIN-SUFFIX,discordapp.com,Proxies
+DOMAIN-SUFFIX,discordapp.net,Proxies
+DOMAIN-SUFFIX,dropbox.com,Proxies
+DOMAIN-SUFFIX,dropboxapi.com,Proxies
+DOMAIN-SUFFIX,dropboxusercontent.com,Proxies
+DOMAIN-SUFFIX,freetls.fastly.net,Proxies
+DOMAIN,cloud-cdn-digitalocean-com.global.ssl.fastly.net,Proxies
+DOMAIN,github.global.ssl.fastly.net,Proxies
+DOMAIN,nytimes.map.fastly.net,Proxies
+DOMAIN-SUFFIX,line.me,Proxies
+DOMAIN-SUFFIX,line-apps.com,Proxies
+DOMAIN-SUFFIX,line-scdn.net,Proxies
+DOMAIN-SUFFIX,naver.jp,Proxies
+IP-CIDR,103.2.30.0/23,Proxies,no-resolve
+IP-CIDR,125.209.208.0/20,Proxies,no-resolve
+IP-CIDR,147.92.128.0/17,Proxies,no-resolve
+IP-CIDR,203.104.144.0/21,Proxies,no-resolve
+DOMAIN-SUFFIX,accountkit.com,Proxies
+DOMAIN-SUFFIX,cdninstagram.com,Proxies
+DOMAIN-SUFFIX,f8.com,Proxies
+DOMAIN-SUFFIX,facebookmail.com,Proxies
+DOMAIN-SUFFIX,fb.com,Proxies
+DOMAIN-SUFFIX,fb.me,Proxies
+DOMAIN-SUFFIX,fb.watch,Proxies
+DOMAIN-SUFFIX,fbaddins.com,Proxies
+DOMAIN-SUFFIX,fbcdn.net,Proxies
+DOMAIN-SUFFIX,fbsbx.com,Proxies
+DOMAIN-SUFFIX,fbworkmail.com,Proxies
+DOMAIN-SUFFIX,instagram.com,Proxies
+DOMAIN-SUFFIX,m.me,Proxies
+DOMAIN-SUFFIX,messenger.com,Proxies
+DOMAIN-SUFFIX,oculus.com,Proxies
+DOMAIN-SUFFIX,oculuscdn.com,Proxies
+DOMAIN-SUFFIX,readyatdawn.com,Proxies
+DOMAIN-SUFFIX,rocksdb.org,Proxies
+DOMAIN-SUFFIX,whatsapp.com,Proxies
+DOMAIN-SUFFIX,whatsapp.net,Proxies
+DOMAIN-KEYWORD,.facebook.,Proxies
+DOMAIN-SUFFIX,aka.ms,Proxies
+DOMAIN-SUFFIX,github.blog,Proxies
+DOMAIN-SUFFIX,github.com,Proxies
+DOMAIN-SUFFIX,github.io,Proxies
+DOMAIN-SUFFIX,githubassets.com,Proxies
+DOMAIN-SUFFIX,githubusercontent.com,Proxies
+DOMAIN-SUFFIX,onedrive.live.com,Proxies
+DOMAIN-SUFFIX,streaming.mediaservices.windows.net,Proxies
+DOMAIN,assets1.xboxlive.com,Proxies
+DOMAIN,assets2.xboxlive.com,Proxies
+DOMAIN,az416426.vo.msecnd.net,Proxies
+DOMAIN,az668014.vo.msecnd.net,Proxies
+DOMAIN-SUFFIX,pinimg.com,Proxies
+DOMAIN-KEYWORD,.pinterest.,Proxies
+DOMAIN-SUFFIX,pixiv.net,Proxies
+DOMAIN-SUFFIX,pixiv.org,Proxies
+DOMAIN-SUFFIX,pximg.net,Proxies
+DOMAIN-SUFFIX,redd.it,Proxies
+DOMAIN-SUFFIX,reddit.com,Proxies
+DOMAIN-SUFFIX,redditmedia.com,Proxies
+DOMAIN-SUFFIX,redditstatic.com,Proxies
+DOMAIN-SUFFIX,reuters.com,Proxies
+DOMAIN-SUFFIX,reutersmedia.net,Proxies
+DOMAIN-SUFFIX,steamcommunity.com,Proxies
+DOMAIN-SUFFIX,legra.ph,Proxies
+DOMAIN-SUFFIX,t.me,Proxies
+DOMAIN-SUFFIX,tdesktop.com,Proxies
+DOMAIN-SUFFIX,telegra.ph,Proxies
+DOMAIN-SUFFIX,telegram.me,Proxies
+DOMAIN-SUFFIX,telegram.org,Proxies
+DOMAIN-SUFFIX,telesco.pe,Proxies
+IP-CIDR,91.108.4.0/22,Proxies,no-resolve
+IP-CIDR,91.108.8.0/22,Proxies,no-resolve
+IP-CIDR,91.108.12.0/22,Proxies,no-resolve
+IP-CIDR,91.108.16.0/22,Proxies,no-resolve
+IP-CIDR,91.108.20.0/22,Proxies,no-resolve
+IP-CIDR,91.108.56.0/22,Proxies,no-resolve
+IP-CIDR,91.105.192.0/23,Proxies,no-resolve
+IP-CIDR,149.154.160.0/20,Proxies,no-resolve
+IP-CIDR,185.76.151.0/24,Proxies,no-resolve
+IP-CIDR6,2001:b28:f23d::/48,Proxies,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,Proxies,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,Proxies,no-resolve
+IP-CIDR6,2001:b28:f23c::/48,Proxies,no-resolve
+IP-CIDR6,2a0a:f280::/32,Proxies,no-resolve
+DOMAIN-SUFFIX,economist.com,Proxies
+DOMAIN-SUFFIX,static-economist.com,Proxies
+DOMAIN-SUFFIX,newyorktimes.com,Proxies
+DOMAIN-SUFFIX,nyt.com,Proxies
+DOMAIN-SUFFIX,nytco.com,Proxies
+DOMAIN-SUFFIX,nytimes.com,Proxies
+DOMAIN-SUFFIX,nytimg.com,Proxies
+DOMAIN-SUFFIX,nytlog.com,Proxies
+DOMAIN-SUFFIX,nytstyle.com,Proxies
+DOMAIN-SUFFIX,tmagazine.com,Proxies
+DOMAIN-SUFFIX,periscope.tv,Proxies
+DOMAIN-SUFFIX,pscp.tv,Proxies
+DOMAIN-SUFFIX,t.co,Proxies
+DOMAIN-SUFFIX,tweetdeck.com,Proxies
+DOMAIN-SUFFIX,twimg.co,Proxies
+DOMAIN-SUFFIX,twimg.com,Proxies
+DOMAIN-SUFFIX,twitpic.com,Proxies
+DOMAIN-SUFFIX,twitter.com,Proxies
+DOMAIN-SUFFIX,twitter.jp,Proxies
+DOMAIN-SUFFIX,vine.co,Proxies
+DOMAIN-SUFFIX,mediawiki.org,Proxies
+DOMAIN-SUFFIX,wikibooks.org,Proxies
+DOMAIN-SUFFIX,wikidata.org,Proxies
+DOMAIN-SUFFIX,wikileaks.org,Proxies
+DOMAIN-SUFFIX,wikimedia.org,Proxies
+DOMAIN-SUFFIX,wikimediafoundation.org,Proxies
+DOMAIN-SUFFIX,wikinews.org,Proxies
+DOMAIN-SUFFIX,wikipedia.org,Proxies
+DOMAIN-SUFFIX,wikiquote.org,Proxies
+DOMAIN-SUFFIX,wikisource.org,Proxies
+DOMAIN-SUFFIX,wikiversity.org,Proxies
+DOMAIN-SUFFIX,wikivoyage.org,Proxies
+DOMAIN-SUFFIX,wiktionary.org,Proxies
+DOMAIN-SUFFIX,yahoo.com,Proxies
+DOMAIN,search.yahoo.co.jp,Proxies
+DOMAIN-SUFFIX,yadi.sk,Proxies
+DOMAIN,disk.yandex.com,Proxies
+DOMAIN-SUFFIX,aicoin.com,Proxies
+DOMAIN-SUFFIX,aimoon.com,Proxies
+DOMAIN-SUFFIX,engadget.com,Proxies
+DOMAIN-SUFFIX,ifixit.com,Proxies
+DOMAIN-SUFFIX,terabox.com,Proxies
+DOMAIN-SUFFIX,zaobao.com.sg,Proxies
+DOMAIN,addons.mozilla.org // Firefox Add-ons HTTP 451,Proxies
+DOMAIN,wego.here.com,Proxies
+DOMAIN-SUFFIX,go.dev,Proxies
+DOMAIN-SUFFIX,golang.org,Proxies
+DOMAIN-SUFFIX,appsto.re // Apple URL Shortener,Proxies
+DOMAIN-SUFFIX,smoot.apple.com // Spotlight,Proxies
+DOMAIN,amp-api.podcasts.apple.com // Podcasts,Proxies
+DOMAIN,beta.music.apple.com // Apple Music Web,Proxies
+DOMAIN,books.itunes.apple.com // iBooks Store download,Proxies
+DOMAIN,lookup-api.apple.com // Look Up,Proxies
+DOMAIN,radio.itunes.apple.com // Apple Music Radio,Proxies
+DOMAIN,apps.apple.com,Proxies
+DOMAIN,books.apple.com,Proxies
+DOMAIN,itunes.apple.com,Proxies
+DOMAIN,tv.apple.com,Proxies
+DOMAIN,gateway.icloud.com,Proxies
+DOMAIN-SUFFIX,apple.news,Proxies
+DOMAIN,news-assets.apple.com,Proxies
+DOMAIN,news-client.apple.com,Proxies
+DOMAIN,news-client-search.apple.com,Proxies
+DOMAIN,news-edge.apple.com,Proxies
+DOMAIN,news-events.apple.com,Proxies
+DOMAIN,apple.comscoreresearch.com,Proxies
+DOMAIN-SUFFIX,bing.com,Proxies
+DOMAIN-SUFFIX,linkedin.com,Proxies
+DOMAIN-SUFFIX,licdn.com,Proxies
+DOMAIN-SUFFIX,msn.com,Proxies
+DOMAIN-SUFFIX,skype.com,Proxies
+DOMAIN-SUFFIX,flyert.com,DIRECT
+DOMAIN-SUFFIX,gandi.net,DIRECT
+DOMAIN-SUFFIX,snapdrop.net,DIRECT
+DOMAIN,download.jetbrains.com,DIRECT
+DOMAIN,origin-a.akamaihd.net // Origin Download,DIRECT
+DOMAIN,outlook.office365.com,DIRECT
+DOMAIN,smtp-mail.outlook.com,DIRECT
+DOMAIN,smtp.office365.com,DIRECT
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com,DIRECT
+DOMAIN-SUFFIX,update.microsoft.com,DIRECT
+DOMAIN-SUFFIX,windowsupdate.com,DIRECT
+DOMAIN-SUFFIX,windowsupdate.microsoft.com,DIRECT
+DOMAIN,download.microsoft.com,DIRECT
+DOMAIN,wustat.windows.com,DIRECT
+DOMAIN,ntservicepack.microsoft.com,DIRECT
+DOMAIN-SUFFIX,paypal.com,DIRECT
+DOMAIN-SUFFIX,paypal.me,DIRECT
+DOMAIN-SUFFIX,paypal-mktg.com,DIRECT
+DOMAIN-SUFFIX,paypalobjects.com,DIRECT
+DOMAIN-SUFFIX,cm.steampowered.com // Steam Connect Manager Servers,DIRECT
+DOMAIN,api.steampowered.com,DIRECT
+IP-CIDR,182.254.116.0/24,DIRECT,no-resolve
+IP-CIDR,203.205.238.0/23,DIRECT,no-resolve
+IP-CIDR,203.205.254.0/23,DIRECT,no-resolve
+DOMAIN,ip.istatmenus.app,DIRECT
+DOMAIN,sms.imagetasks.com,DIRECT
+DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
+DOMAIN,speedtest.macpaw.com,DIRECT
+DOMAIN-SUFFIX,acg.rip,DIRECT
+DOMAIN-SUFFIX,animebytes.tv,DIRECT
+DOMAIN-SUFFIX,awesome-hd.me,DIRECT
+DOMAIN-SUFFIX,broadcasthe.net,DIRECT
+DOMAIN-SUFFIX,chdbits.co,DIRECT
+DOMAIN-SUFFIX,classix-unlimited.co.uk,DIRECT
+DOMAIN-SUFFIX,comicat.org,DIRECT
+DOMAIN-SUFFIX,empornium.me,DIRECT
+DOMAIN-SUFFIX,gazellegames.net,DIRECT
+DOMAIN-SUFFIX,hdbits.org,DIRECT
+DOMAIN-SUFFIX,hdchina.org,DIRECT
+DOMAIN-SUFFIX,hddolby.com,DIRECT
+DOMAIN-SUFFIX,hdhome.org,DIRECT
+DOMAIN-SUFFIX,hdsky.me,DIRECT
+DOMAIN-SUFFIX,icetorrent.org,DIRECT
+DOMAIN-SUFFIX,jpopsuki.eu,DIRECT
+DOMAIN-SUFFIX,keepfrds.com,DIRECT
+DOMAIN-SUFFIX,madsrevolution.net,DIRECT
+DOMAIN-SUFFIX,morethan.tv,DIRECT
+DOMAIN-SUFFIX,m-team.cc,DIRECT
+DOMAIN-SUFFIX,myanonamouse.net,DIRECT
+DOMAIN-SUFFIX,nanyangpt.com,DIRECT
+DOMAIN-SUFFIX,ncore.cc,DIRECT
+DOMAIN-SUFFIX,open.cd,DIRECT
+DOMAIN-SUFFIX,ourbits.club,DIRECT
+DOMAIN-SUFFIX,passthepopcorn.me,DIRECT
+DOMAIN-SUFFIX,privatehd.to,DIRECT
+DOMAIN-SUFFIX,pterclub.com,DIRECT
+DOMAIN-SUFFIX,redacted.ch,DIRECT
+DOMAIN-SUFFIX,springsunday.net,DIRECT
+DOMAIN-SUFFIX,tjupt.org,DIRECT
+DOMAIN-SUFFIX,totheglory.im,DIRECT
+GEOIP,CN,DIRECT,no-resolve
+DOMAIN-SUFFIX,local,DIRECT
+IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+IP-CIDR6,::1/128,DIRECT,no-resolve
+IP-CIDR6,fc00::/7,DIRECT,no-resolve
+IP-CIDR6,fe80::/10,DIRECT,no-resolve
+IP-CIDR6,fd00::/8,DIRECT,no-resolve
+GEOIP,CN,DIRECT
+FINAL,Final
+
